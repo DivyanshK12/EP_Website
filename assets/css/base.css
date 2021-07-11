@@ -7,14 +7,19 @@
     object-fit:cover;
 }
 
-.icon
+.icon-nav
 {
-    width: 20vw;
+  height: 8vh;
+}
+.icon-foot
+{
+  width: 20vw;
 }
 
 .orange
 {
     background-color: orangered;
+    color:white;
 }
 /* Scrollbars */
 /* Works on Firefox */
