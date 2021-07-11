@@ -1,12 +1,3 @@
-
-.carousel {
-    height:80vh;
-}
-.carousel-inner .carousel-item img {
-    height:80vh;
-    object-fit:cover;
-}
-
 .icon-nav
 {
   height: 8vh;
