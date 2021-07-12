@@ -1,0 +1,31 @@
+<div class = " m-md-3 p-md-3">
+<div class="d-flex justify-content-around align-items-stretch ">
+    <div class="p-3 flexcard">
+        <center><p class="title-text">Announcements</p></center>
+        <div class = "flexcard-inner">
+        {% for item in site.data.announcements %}
+        <h4>{{item.title}}</h4>
+        <h5>{{item.text}}</h5>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="p-3 flexcard">
+        <center><p class="title-text">Research</p></center>
+        <div class = "flexcard-inner">
+        {% for item in site.data.research %}
+        <h4>{{item.title}}</h4>
+        <h5>{{item.text}}</h5>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="p-3 flexcard">
+        <center><p class="title-text">Research</p></center>
+        <div class = "flexcard-inner">
+        {% for item in site.data.research %}
+        <h4>{{item.title}}</h4>
+        <h5>{{item.text}}</h5>
+        {% endfor %}
+        </div>
+    </div>
+  </div>
+</div>
