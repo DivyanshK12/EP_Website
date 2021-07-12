@@ -5,3 +5,16 @@
     height:60vh;
     object-fit:cover;
 }
+#news-img
+{
+    width:100%;
+    height:auto;
+}
+.title-text
+{
+    border-bottom: min(0.5vh, 0.5vw) solid orangered;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: 400;
+    color: #000;
+}
