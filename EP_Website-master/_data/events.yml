@@ -1,0 +1,14 @@
+- img : bg-img1.png
+  id : 0
+  title : First Event
+  text : Incididunt magna quis irure cillum enim dolore ea.
+
+- img : bg-img-2.png
+  id : 1
+  title : Second Event
+  text : Incididunt magna quis irure cillum enim dolore ea.
+
+- img : bg-img-3.png
+  id : 2
+  title : Third Event
+  text : Incididunt magna quis irure cillum enim dolore ea.
