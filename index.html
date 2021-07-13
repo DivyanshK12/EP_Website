@@ -4,6 +4,7 @@ title: Dept. of Physics
 css : index.css
 script : index.js
 ---
+<div class="container mt-3">
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-indicators">
       {% for item in site.data.index %}
@@ -30,4 +31,7 @@ script : index.js
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+</div>
   {% include news.html %}
+  {% include events.html %}

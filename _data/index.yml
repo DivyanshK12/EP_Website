@@ -1,14 +1,14 @@
-- img : bg-img1.png
+- img : cp1.jpg
   id : 0
   title : First Image
   text : Nostrud adipisicing dolore ea dolore velit reprehenderit laborum amet exercitation laboris.
 
-- img : bg-img-2.png
+- img : cp2.jpg
   id : 1
   title : Second Image
   text : Minim excepteur quis dolore commodo do deserunt tempor tempor exercitation sint quis sunt laboris.
 
-- img : bg-img-3.png
+- img : cp3.jpg
   id : 2
   title : Third Image
   text : Esse anim tempor exercitation sit sint eu minim id irure ut pariatur anim est.

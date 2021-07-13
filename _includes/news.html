@@ -1,28 +1,42 @@
-<div class = "container m-md-2 p-md-2">
-    <!-- <div class = "row mt-1">
-             
-        <hr>
-    </div> -->
-    <div class = "row">
-        <div class="col-sm-6">
-            <img src = "/assets/images/logo-img.png" id = "news-img">
+<div class="container mt-5 mb-5">
+    <center><p class="title-text">News</p></center>
+    <div class="row mt-2 mb-2" id="row1">
+        <div class ="col-sm-12 pb-2 col-md-6">
+            <div class="card text-dark shadow event">
+                <!-- <div class="card-header">Header</div> -->
+                <div class="card-body">
+                  <h5 class="card-title">Light card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
         </div>
-        <div class = "col-sm-6">
-            <center><p class="title-text">Events</p></center>
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-                {% for item in site.data.events %}
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flushhead-{{ item.id }}">
-                      <button class="accordion-button collapsed" type="button" onclick = "logger('{{ item.img }}')" data-bs-toggle="collapse" data-bs-target="#flush-{{ item.id }}" aria-expanded="false" aria-controls="flush-{{ item.id }}" name="flush-{{ item.id }}">
-                        {{ item.title }}
-                      </button>
-                    </h2>
-                    <div id="flush-{{ item.id }}" class="accordion-collapse collapse" aria-labelledby="flushhead-{{ item.id }}" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">{{ item.text }}</div>
-                    </div>
-                  </div>
-                {% endfor %}
-            </div>
+        <div class ="col-sm-12 pb-2 col-md-6">
+            <div class="card text-dark shadow event">
+                <!-- <div class="card-header">Header</div> -->
+                <div class="card-body">
+                  <h5 class="card-title">Light card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </div><!--row-->
+    <div class="row mt-2 mb-2" id = "row2">
+        <div class ="col-sm-12 pb-2 col-md-6">
+            <div class="card text-dark shadow event">
+                <!-- <div class="card-header">Header</div> -->
+                <div class="card-body">
+                  <h5 class="card-title">Light card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class ="col-sm-12 pb-2 col-md-6">
+            <div class="card text-dark shadow event">
+                <!-- <div class="card-header">Header</div> -->
+                <div class="card-body">
+                  <h5 class="card-title">Light card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
               </div>
         </div>
     </div>
