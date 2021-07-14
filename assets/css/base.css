@@ -1,5 +1,13 @@
+:root
+{
+  --darkgrey : #333a44;
+  --apricot : #f7882f;
+  --citrus : #f7c331;
+  --applecore : #ffffff;
+  --white : #ffffff;
+}
 body{
-  background-color:white;
+  background-color:var(--applecore);
 }
 .icon-nav
 {
@@ -11,19 +19,27 @@ body{
 }
 .main-tool-bar
 {
-  background-color: #fd7e14;
-  color:white;
+  background-color: var(--apricot);
+  color:var(--white);
 }
 .orange
 {
-    background-color: #fd7e14;
-    color:white;
+    background-color: var(--apricot);
+    color:var(--white);
+}
+.title-text
+{
+    border-bottom: min(0.5vh, 0.5vw) solid var(--apricot);
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: 400;
+    color: var(--var(--apricot));
 }
 /* Scrollbars */
 /* Works on Firefox */
 * {
     scrollbar-width: thin;
-    scrollbar-color: #adb5bd white;
+    scrollbar-color: var(--citrus) var(--white);
   }
   
   /* Works on Chrome, Edge, and Safari */
@@ -32,11 +48,11 @@ body{
   }
   
   *::-webkit-scrollbar-track {
-    background: white;
+    background: var(--white);
   }
   
   *::-webkit-scrollbar-thumb {
-    background-color: #adb5bd;
+    background-color: var(--citrus);
     border-radius: 20px;
-    border: 3px solid white;
+    border: 3px solid var(--white);
   }

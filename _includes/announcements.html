@@ -1,0 +1,38 @@
+<div class = " m-md-3 p-md-3">
+    <div class="d-flex justify-content-around align-items-stretch ">
+        <div class="p-3 flexcard">
+            <center><p class="title-text">Announcements</p></center>
+            <div class = "flexcard-inner">
+            {% for item in site.data.announcements %}
+            <div class = "flexcard-data">
+                <a class = "flexcard-link" href="#"><h4>{{item.title}}</h4></a>
+                <h5>{{item.text}}</h5>
+            </div>
+            
+            {% endfor %}
+            </div>
+        </div>
+        <div class="p-3 flexcard">
+            <center><p class="title-text">Research</p></center>
+            <div class = "flexcard-inner">
+            {% for item in site.data.announcements %}
+            <div class = "flexcard-data">
+                <a class = "flexcard-link" href="#"><h4>{{item.title}}</h4></a>
+                <h5>{{item.text}}</h5>
+            </div>
+            {% endfor %}
+            </div>
+        </div>
+        <div class="p-3 flexcard">
+            <center><p class="title-text">Research</p></center>
+            <div class = "flexcard-inner">
+            {% for item in site.data.announcements %}
+            <div class = "flexcard-data">
+                <a class = "flexcard-link" href="#"><h4>{{item.title}}</h4></a>
+                <h5>{{item.text}}</h5>
+            </div>
+            {% endfor %}
+            </div>
+        </div>
+      </div>
+    </div>
