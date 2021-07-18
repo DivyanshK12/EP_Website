@@ -1,43 +1,69 @@
+<div class="orange p-2">
 <div class="container mt-5 mb-5">
-    <center><p class="title-text">News</p></center>
-    <div class="row mt-2 mb-2" id="row1">
-        <div class ="col-sm-12 pb-2 col-md-6">
-            <div class="card shadow event">
-                <!-- <div class="card-header">Header</div> -->
-                <div class="card-body">
-                  <h5 class="card-title">Light card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+    <div class="row row-cols-md-3 row-cols-sm-1">
+      <div class="col">
+        <div class="card shadow event">
+          <div class="card-body">
+            <center><h4 class="card-title title-text p-2" id="head">Announcements</h4></center>
+            {% for item in site.data.announcements %}
+            {% if item.id < 3 %}
+             <!--Can add link to item itself-->
+            <div class="card mb-3 flexcard" id="link">
+              <div class="card-body text-dark ">
+                <a href="#" class="flexcard-link"><h5 class="card-title">{{ item.title }}</h5></a>
+                <p class="card-text">{{ item.text }}</p>
               </div>
-        </div>
-        <div class ="col-sm-12 pb-2 col-md-6">
-            <div class="card shadow event">
-                <!-- <div class="card-header">Header</div> -->
-                <div class="card-body">
-                  <h5 class="card-title">Light card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+              <div class="card-footer text-muted">
+                {{ item.date }}
               </div>
+            </div>
+          {% endif %}
+          {% endfor %}
+          </div>
         </div>
-    </div><!--row-->
-    <div class="row mt-2 mb-2" id = "row2">
-        <div class ="col-sm-12 pb-2 col-md-6">
-            <div class="card shadow event">
-                <!-- <div class="card-header">Header</div> -->
-                <div class="card-body">
-                  <h5 class="card-title">Light card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+      </div><!--col-->
+      <div class="col">
+        <div class="card shadow event">
+          <div class="card-body">
+            <center><h4 class="card-title title-text p-2" id="head">Research</h4></center>
+            {% for item in site.data.research %}
+            {% if item.id < 3 %}
+             <!--Can add link to item itself-->
+            <div class="card mb-3 flexcard" id="link">
+              <div class="card-body text-dark ">
+                <a href="#" class="flexcard-link"><h5 class="card-title">{{ item.title }}</h5></a>
+                <p class="card-text">{{ item.text }}</p>
               </div>
-        </div>
-        <div class ="col-sm-12 pb-2 col-md-6">
-            <div class="card shadow event">
-                <!-- <div class="card-header">Header</div> -->
-                <div class="card-body">
-                  <h5 class="card-title">Light card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
+              <div class="card-footer text-muted">
+                {{ item.date }}
               </div>
+            </div>
+          {% endif %}
+          {% endfor %}
+          </div>
         </div>
+      </div><!--col-->
+      <div class="col">
+        <div class="card shadow event">
+          <div class="card-body">
+            <center><h4 class="card-title title-text p-2" id="head">Events</h4></center>
+            {% for item in site.data.events %}
+            {% if item.id < 3 %}
+             <!--Can add link to item itself-->
+            <div class="card mb-3 flexcard" id="link">
+              <div class="card-body text-dark ">
+                <a href="#" class="flexcard-link"><h5 class="card-title">{{ item.title }}</h5></a>
+                <p class="card-text">{{ item.text }}</p>
+              </div>
+              <div class="card-footer text-muted">
+                {{ item.date }}
+              </div>
+            </div>
+          {% endif %}
+          {% endfor %}
+          </div>
+        </div>
+      </div><!--col-->
     </div>
+</div>
 </div>

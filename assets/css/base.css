@@ -9,6 +9,13 @@
 body{
   background-color:var(--applecore);
 }
+html {
+  scroll-behavior: smooth;
+}
+.card
+{
+  border-radius: 0;
+}
 .icon-nav
 {
   height: 8vh;
@@ -26,6 +33,10 @@ body{
 {
     background-color: var(--apricot);
     color:var(--white);
+}
+#map
+{
+    height:40vh;
 }
 .title-text
 {

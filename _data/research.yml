@@ -1,17 +1,14 @@
 - id : 0
-  img : bg-img1.png
   title : First Event
   text : Officia adipisicing labore voluptate voluptate proident.
   date : 20th July 2021
 
 - id : 1
-  img : bg-img-2.png
   title : Second Event
   text : Ea adipisicing dolor laborum aliqua quis ipsum excepteur.
   date : 20th July 2021
 
 - id : 2
-  img : bg-img-3.png
   title : Third Event
   text : Culpa eu eu sint ut nisi et nulla non eiusmod minim eu duis minim dolore.
   date : 20th July 2021

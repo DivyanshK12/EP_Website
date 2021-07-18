@@ -1,8 +1,8 @@
 .carousel {
-    height:60vh;
+    height:45vh;
 }
 .carousel-inner .carousel-item img {
-    height:60vh;
+    height:45vh;
     object-fit:cover;
 }
 .event
@@ -34,13 +34,11 @@
   {
     box-shadow: 0 2px 4px var(--apricot);
     background-color: var(--applecore);
-    max-width:450px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .flexcard:hover{
-    transition-duration: 0.7s;
-    
-    box-shadow: 0 5px 15px var(--apricot);
+    transition-duration: 0.5s;
+    box-shadow: 0 5px 10px var(--apricot);
   }
   .flexcard-inner
   {

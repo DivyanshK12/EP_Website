@@ -5,6 +5,8 @@ css : index.css
 script : index.js
 ---
 <div class="container mt-3">
+<div class="row justify-content-md-center">
+<div class="col-md-12 pt-2">
 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-indicators">
       {% for item in site.data.index %}
@@ -31,8 +33,22 @@ script : index.js
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-
 </div>
+<!--Column-->
+<div class="col-md-10 pt-4 pb-5">
+  <center><h1 class="title-text" id="abtus">About Us</h1></center>
+  <p id="abtus" class="lead">Ut esse anim aute sint. Do elit non enim laboris est nostrud ad eu sit mollit ea sint ex fugiat. Qui adipisicing ipsum id commodo qui do cupidatat adipisicing magna qui eu. Magna id eiusmod incididunt nostrud labore nostrud quis aliqua. </p>
+  <figure class="text-center">
+    <blockquote class="blockquote" id="abtus">
+      <p>A well-known quote, contained in a blockquote element.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer" id="abtus">
+      Someone famous in <cite title="Source Title">Source Title</cite>
+    </figcaption>
+  </figure>
+  <p id="abtus" class="lead">Ut esse anim aute sint. Do elit non enim laboris est nostrud ad eu sit mollit ea sint ex fugiat. Qui adipisicing ipsum id commodo qui do cupidatat adipisicing magna qui eu. Magna id eiusmod incididunt nostrud labore nostrud quis aliqua. </p>
+</div><!--Column-->
+</div><!--Row-->
+</div><!--Container-->
   {% include news.html %}
   {% include events.html %}
-  {% include announcements.html %}
