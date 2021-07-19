@@ -1,0 +1,36 @@
+---
+layout: base
+title: Students
+css : index.css
+script : index.js
+---
+
+
+<div class = "container" >
+ <nav class="nav nav-pills nav-fill">
+  <a class="nav-item nav-link active" href="#">Active</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link" href="#">Link</a>
+  <a class="nav-item nav-link disabled" href="#">Disabled</a>
+ </nav>
+<table class="table table-striped">
+ <thead>
+   <tr>
+    <th scope="col">Sr. No.</th>
+     <th scope="col">Name</th>
+     <th scope="col">Roll Number</th>
+   </tr>
+ </thead>
+ <tbody>
+  {% for item in site.data.student %}
+ <tr>
+ <th scope="row">{{item.id}}</th>
+ <td>{{item.name}}</td>
+ <td>{{item.roll}}</td>
+ </tr>
+
+{% endfor %} 
+   
+ </tbody>
+</table>
+</div>
