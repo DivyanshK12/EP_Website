@@ -25,10 +25,11 @@ function initMap() {
       map: map,
     });
   }
-let tl = new TimelineMax({paused:true, reversed:true});
-tl.from('.dropdown-menu', 0.25, {height: 0, ease: Power2.easeOut, opacity: 0})
-tl.staggerFrom('.dropdown-menu > li', .2, {y: -20, opacity: 0}, .015);
+// let tl = new TimelineMax({paused:true, reversed:true});
+// tl.from('.dropdown-menu', 0.25, {height: 0, ease: Power2.easeOut, opacity: 0})
+// tl.staggerFrom('.dropdown-menu > li', .2, {y: -20, opacity: 0}, .015);
 
-document.getElementById("navbarDropdown").addEventListener("click", function(){
-    tl.reversed() ? tl.play() : tl.reverse(0);
-  });
+// document.getElementById("navbarPeople").addEventListener("click", function(){
+//     tl.reversed() ? tl.play() : tl.reverse(0);
+//   });
+// animation for navbar dropdown

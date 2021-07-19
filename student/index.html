@@ -1,36 +1,54 @@
 ---
 layout: base
 title: Students
-css : index.css
-script : index.js
+css: index.css
+script: student.js
 ---
 
-
-<div class = "container" >
- <nav class="nav nav-pills nav-fill">
-  <a class="nav-item nav-link active" href="#">Active</a>
-  <a class="nav-item nav-link" href="#">Link</a>
-  <a class="nav-item nav-link" href="#">Link</a>
-  <a class="nav-item nav-link disabled" href="#">Disabled</a>
- </nav>
-<table class="table table-striped">
- <thead>
-   <tr>
-    <th scope="col">Sr. No.</th>
-     <th scope="col">Name</th>
-     <th scope="col">Roll Number</th>
-   </tr>
- </thead>
- <tbody>
-  {% for item in site.data.student %}
- <tr>
- <th scope="row">{{item.id}}</th>
- <td>{{item.name}}</td>
- <td>{{item.roll}}</td>
- </tr>
-
-{% endfor %} 
-   
- </tbody>
-</table>
+<div class="container">
+  <center><h2 class="title-text p-3">BTech Students</h2></center>
+  <nav class="nav nav-pills nav-fill">
+    <a class="nav-item nav-link active" href="#" onclick="change(2019)" id="nav-2019">2019</a>
+    <a class="nav-item nav-link" href="#" onclick="change(2018)" id="nav-2018">2018</a>
+  </nav>
+  <table class="table table-striped" id="2019">
+    <thead>
+      <tr>
+        <th scope="col">Sr. No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Roll Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in site.data.student %}
+      {% if item.year == 2019 %}
+      <tr>
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.roll}}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+  <table class="table table-striped d-none" id="2018">
+    <thead>
+      <tr>
+        <th scope="col">Sr. No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Roll Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in site.data.student %}
+      {% if item.year == 2018 %}
+      <tr>
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.roll}}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
 </div>
