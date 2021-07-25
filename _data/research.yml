@@ -1,14 +1,17 @@
 - id : 0
-  title : First Event
+  img : slider/VSM1.jpg
+  title : Magnetics
   text : Officia adipisicing labore voluptate voluptate proident.
   date : 20th July 2021
 
 - id : 1
-  title : Second Event
+  img : slider/sputtering_plasma.jpg
+  title : Plasma
   text : Ea adipisicing dolor laborum aliqua quis ipsum excepteur.
   date : 20th July 2021
 
 - id : 2
-  title : Third Event
+  img : slider/SQUID1_1.jpg
+  title : Quantum
   text : Culpa eu eu sint ut nisi et nulla non eiusmod minim eu duis minim dolore.
   date : 20th July 2021

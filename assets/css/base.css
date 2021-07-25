@@ -45,7 +45,12 @@ html {
     text-decoration: none;
     font-size: xx-large;
     font-weight: 400;
-    color: var(--var(--apricot));
+    color: var(--darkgrey);
+}
+.dropdown-menu > li > a:hover {
+  background-image: none;
+  background-color: var(--apricot);
+  color : white;
 }
 /* Scrollbars */
 /* Works on Firefox */

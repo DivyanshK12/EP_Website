@@ -1,0 +1,15 @@
+@import url('/assets/css/index.css');
+
+.tab, .tab:hover
+{
+    color : var(--apricot);
+    background-color: white;
+    background-image: none;
+}
+
+.active
+{
+    color : white !important;
+    background-color: var(--apricot) !important;
+    background-image: none !important;
+}

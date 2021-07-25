@@ -1,12 +1,12 @@
 <div class = "container m-2 p-2">
     <div class = "row">
-        <div class="col-sm-6">
-            <img src = "/assets/images/bg-img-3.png" id = "news-img">
+        <div class="col-sm-5">
+            <img src = "/assets/images/slider/BoatHeating.jpg" id = "news-img">
         </div>
-        <div class = "col-sm-6">
-            <center><p class="title-text">Events</p></center>
+        <div class = "col-sm-7">
+            <center><p class="title-text">Research</p></center>
             <div class="accordion accordion-flush" id="accordionFlushExample">
-                {% for item in site.data.events %}
+                {% for item in site.data.research %}
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flushhead-{{ item.id }}">
                       <button class="accordion-button collapsed" type="button" onclick = "logger('{{ item.img }}')" data-bs-toggle="collapse" data-bs-target="#flush-{{ item.id }}" aria-expanded="false" aria-controls="flush-{{ item.id }}" name="flush-{{ item.id }}">

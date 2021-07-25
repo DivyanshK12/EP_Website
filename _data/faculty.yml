@@ -1,5 +1,5 @@
 - name : Kanchana. V
-  img : kanchana.jpg
+  img : faculty/kanchana.jpg
   Designation : Professor & Head of the Department
   Office : Academic Block -A, 104
   Phone : 040 2301 6702
@@ -9,7 +9,7 @@
 
 
 - name : Sai Santosh Kumar Raavi
-  img : saisanthosh.jpg
+  img : faculty/saisanthosh.jpg
   Designation : Associate Professor
   Office : B-Block, 301
   Phone : 040 2301 6711
@@ -18,7 +18,7 @@
   FullProfile : https://sskraavi.wixsite.com/raavilab
 
 - name : Saket Asthana
-  img : saket.jpeg
+  img : faculty/saket.jpeg
   Designation : Professor
   Office : Academic Block -A, 606
   Phone : 040 2301 6703
