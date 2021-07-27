@@ -8,9 +8,35 @@ script: student.js
 <div class="container">
   <center><h2 class="title-text p-3">B.Tech Students</h2></center>
   <nav class="nav nav-pills nav-fill">
-    <a class="nav-item nav-link tab active" href="#" onclick="change(2019)" id="nav-2019">2019</a>
+    <a class="nav-item nav-link tab active" href="#" onclick="change(2020)" id="nav-2019">2020</a>
+    <a class="nav-item nav-link tab" href="#" onclick="change(2019)" id="nav-2018">2019</a>
     <a class="nav-item nav-link tab" href="#" onclick="change(2018)" id="nav-2018">2018</a>
+    <a class="nav-item nav-link tab" href="#" onclick="change(2017)" id="nav-2018">2017</a>
+    <a class="nav-item nav-link tab" href="#" onclick="change(2016)" id="nav-2018">2016</a>
+    <a class="nav-item nav-link tab" href="#" onclick="change(2015)" id="nav-2018">2015</a>
+    <a class="nav-item nav-link tab" href="#" onclick="change(2014)" id="nav-2018">2014</a>
+    <a class="nav-item nav-link tab" href="#" onclick="change(2013)" id="nav-2018">2013</a>
   </nav>
+  <table class="table table-striped d-none" id="2020">
+    <thead>
+      <tr>
+        <th scope="col">Sr. No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Roll Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in site.data.student %}
+      {% if item.year == 2020 %}
+      <tr>
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.roll}}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
   <table class="table table-striped" id="2019">
     <thead>
       <tr>
@@ -42,6 +68,106 @@ script: student.js
     <tbody>
       {% for item in site.data.student %}
       {% if item.year == 2018 %}
+      <tr>
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.roll}}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+  <table class="table table-striped d-none" id="2017">
+    <thead>
+      <tr>
+        <th scope="col">Sr. No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Roll Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in site.data.student %}
+      {% if item.year == 2017 %}
+      <tr>
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.roll}}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+  <table class="table table-striped d-none" id="2016">
+    <thead>
+      <tr>
+        <th scope="col">Sr. No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Roll Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in site.data.student %}
+      {% if item.year == 2016 %}
+      <tr>
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.roll}}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+  <table class="table table-striped d-none" id="2015">
+    <thead>
+      <tr>
+        <th scope="col">Sr. No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Roll Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in site.data.student %}
+      {% if item.year == 2015 %}
+      <tr>
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.roll}}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+  <table class="table table-striped d-none" id="2014">
+    <thead>
+      <tr>
+        <th scope="col">Sr. No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Roll Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in site.data.student %}
+      {% if item.year == 2014 %}
+      <tr>
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.roll}}</td>
+      </tr>
+      {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+  <table class="table table-striped d-none" id="2013">
+    <thead>
+      <tr>
+        <th scope="col">Sr. No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Roll Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in site.data.student %}
+      {% if item.year == 2013 %}
       <tr>
         <th scope="row">{{item.id}}</th>
         <td>{{item.name}}</td>

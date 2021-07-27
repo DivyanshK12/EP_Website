@@ -238,3 +238,352 @@
   name : YASH TIWARI
   roll : EP19BTECH11025
 
+- id : 1
+  year: 2013
+  roll : EP13B1001
+  name : BUTHKOORI NIKHITH
+  
+- id : 2
+  year: 2013
+  roll : EP13B1002
+  name : CHALOJU VIJETHA
+
+- id : 3
+  year: 2013
+  roll : EP13B1003
+  name : KULKARNI SOHAM AJIT
+
+- id : 4
+  year: 2013
+  roll : EP13B1005
+  name : MIDHUN A R
+  
+- id : 5
+  year: 2013
+  roll : EP13B1006
+  name : PRAFULLA KUMAR GUPTA
+  
+- id : 6
+  year: 2013
+  roll : EP13B1007
+  name : RAMAVATH VIDWAN PANDEY
+
+- id : 1
+  year : 2014
+  roll : EP14BTECH11001
+  name : AISHA DANTULURI
+
+- id : 2
+  year : 2014
+  roll : EP14BTECH11002
+  name : Akhilesh Kumar
+    
+- id : 3
+  year : 2014
+  roll : EP14BTECH11003
+  name : ASHISH RANJAN
+    
+- id : 4
+  year : 2014
+  roll : EP14BTECH11004
+  name : JAKKAPU MAHESH
+    
+- id : 5
+  year : 2014
+  roll : EP14BTECH11005
+  name : KALE LAKSHMI NARASIMHA RAO
+    
+- id : 6
+  year : 2014
+  roll : EP14BTECH11006
+  name : KESHAV ASKE
+    
+- id : 7
+  year : 2014
+  roll : EP14BTECH11007
+  name : SANJAN PRAKASH KUMAR
+    
+- id : 8
+  year : 2014
+  roll : EP14BTECH11008
+  name : SURYARAO BETHAPUDI
+    
+- id : 9
+  year : 2014
+  roll : EP14BTECH11009
+  name : TUMATI JEEVAN SUMANTH
+
+- id : 1
+  year : 2015
+  roll : EP15BTECH11001
+  name : ANURAG VERMA
+
+- id : 2
+  year : 2015
+  roll : EP15BTECH11003
+  name : BHAGWAT CHAITANYA VIVEK
+
+- id : 3
+  year : 2015
+  roll : EP15BTECH11004
+  name : BHARAT SEERVI
+
+- id : 4 
+  year : 2015
+  roll : EP15BTECH11005
+  name : DHAYGUDE AKANKSHA BALKRISHNA
+
+- id : 5
+  year : 2015
+  roll : EP15BTECH11006
+  name : GHARAT SHARDUL BHARAT
+
+- id : 6
+  year : 2015
+  roll : EP15BTECH11007
+  name : JOHN BESRA
+
+- id : 7
+  year : 2015
+  roll : EP15BTECH11008
+  name : P DHAKSHA SHRAVAN
+
+- id : 8
+  year : 2015
+  roll : EP15BTECH11010
+  name : TEJAS.P
+
+- id : 1
+  year : 2016
+  roll : EP16BTECH11001
+  name : CHAGANTI PRADEEP REDDY
+
+- id : 2
+  year : 2016
+  roll : EP16BTECH11002
+  name : DAEV MITHRAN C
+
+- id : 3
+  year : 2016
+  roll : EP16BTECH11003
+  name : GUGULOTHU SAIRAM NAIK
+
+- id : 4
+  year : 2016
+  roll : EP16BTECH11004
+  name : HARSH JAIN PINCHA
+
+- id : 5
+  year : 2016
+  roll : EP16BTECH11005
+  name : HOLE SUMIT VINAYAKRAO
+
+- id : 6
+  year : 2016
+  roll : EP16BTECH11006
+  name : IYENGAR KETAN RANGAN
+
+- id : 7
+  year : 2016
+  roll : EP16BTECH11007
+  name : KABIR SAMBHAJI SHARDA
+
+- id : 8
+  year : 2016
+  roll : EP16BTECH11008
+  name : KUNAPAREDDY DHANA SATYA SURYA
+
+- id : 9
+  year : 2016
+  roll : EP16BTECH11009
+  name : PRAN PRATEEP BURRAMSETTY
+
+- id : 1
+  year : 2017
+  roll : EP17BTECH11001
+  name : ABHISHEK AGARWAL
+
+- id : 2
+  year : 2017
+  roll : EP17BTECH11002
+  name : ADITYA PATEL
+
+- id : 3
+  year : 2017
+  roll : EP17BTECH11003
+  name : APOORVE KALOT
+
+- id : 4
+  year : 2017
+  roll : EP17BTECH11004
+  name : APUROOP RAJ VARDHAN G
+
+- id : 5
+  year : 2017
+  roll : EP17BTECH11005
+  name : CHRISTIAN STAVAN NILESH
+
+- id : 6 
+  year : 2017
+  roll : EP17BTECH11006
+  name : DHRUV NITIN GUPTA
+
+- id : 7 
+  year : 2017
+  roll : EP17BTECH11007
+  name : GAURAV MILIND GIJARE
+
+- id : 8
+  year : 2017
+  roll : EP17BTECH11008
+  name : GAUTHAM GURURAJAN
+
+- id : 9
+  year : 2017
+  roll : EP17BTECH11009
+  name : GEYASREE KONATHAM
+
+- id : 10
+  year : 2017
+  roll : EP17BTECH11010
+  name : GURU SAI HAVEESH SINGIRIKONDA
+
+- id : 11
+  year : 2017
+  roll : EP17BTECH11011
+  name : LUNAVATH PRANITHA
+
+- id : 12
+  year : 2017
+  roll : EP17BTECH11012
+  name : MAMIDI RATNA LAHARI
+
+- id : 13
+  year : 2017
+  roll : EP17BTECH11013
+  name : NENAVATH PRASHANTH BABU
+
+- id : 14
+  year : 2017
+  roll : EP17BTECH11014
+  name : P K SAI KARUN KARTHIK
+
+- id : 15
+  year : 2017
+  roll : EP17BTECH11016
+  name : RAGHAV PRAFULLA GIRGAONKAR
+
+- id : 16
+  year : 2017
+  roll : EP17BTECH11017
+  name : RAHUL DILIP JAISWAL
+
+- id : 17
+  year : 2017
+  roll : EP17BTECH11018
+  name : SEERAM SRI RAGHA SAI SOWMYA
+
+- id : 18
+  year : 2017
+  roll : EP17BTECH11019
+  name : YOGESH SWAMI
+
+- id : 19
+  year : 2017
+  roll : EP17BTECH11020
+  name : ABHISHEK KUMAR SINGH
+
+- id : 1
+  year : 2018
+  roll : EP17BTECH11001
+  name : ABHISHEK KUMAR
+
+- id : 2
+  year : 2018
+  roll : EP17BTECH11002
+  name : AVANEESH SINGH
+
+- id : 3
+  year : 2018
+  roll : EP17BTECH11003
+  name : BHAGVATI KASI SRINIKITHA
+
+- id : 4
+  year : 2018
+  roll : EP17BTECH11004
+  name : JARUPULA GOPAL
+
+- id : 5
+  year : 2018
+  roll : EP17BTECH11005
+  name : JEYA JOTHIKA N
+
+- id : 6
+  year : 2018
+  roll : EP17BTECH11006
+  name : KOMMASANI SRI LAKSHMI PUJITHA
+
+- id : 7
+  year : 2018
+  roll : EP17BTECH11007
+  name : MANCHE JAYAKRISHNA YADAV
+
+- id : 8
+  year : 2018
+  roll : EP17BTECH11008
+  name : MRUTYUNJAYA BEHERA
+
+- id : 9
+  year : 2018
+  roll : EP17BTECH11009
+  name : MUPPALA LALITHYA VARMA
+
+- id : 10
+  year : 2018
+  roll : EP17BTECH11010
+  name : NEESHANT CHANDRAPRAKASH PANDEY
+
+- id : 11
+  year : 2018
+  roll : EP17BTECH11011
+  name : RAAD SHAIKH
+
+- id : 12
+  year : 2018
+  roll : EP17BTECH11012
+  name : RAJDEEP MUKESH AGRAWAL
+
+- id : 13
+  year : 2018
+  roll : EP17BTECH11013
+  name : RAJNISH GUPTA
+
+- id : 14
+  year : 2018
+  roll : EP17BTECH11014
+  name : ROHIT SONKAMBLE
+
+- id : 15
+  year : 2018
+  roll : EP17BTECH11015
+  name : S PRADYUMNA
+
+- id : 16
+  year : 2018
+  roll : EP17BTECH11016
+  name : SANSKAR RAHUL NANEGAONKAR
+
+- id : 17
+  year : 2018
+  roll : EP17BTECH11017
+  name : SARA BOREDA MOHAN CHANDRA VARMA
+
+- id : 18
+  year : 2018
+  roll : EP17BTECH11018
+  name : SAURAV MADHUSOODANAN
+
+- id : 19
+  year : 2018
+  roll : EP17BTECH11019
+  name : UTKARSH BHURA
