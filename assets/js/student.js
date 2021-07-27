@@ -1,9 +1,9 @@
 window.onload = () => {
-    sessionStorage.setItem('prev', 2019);
+    sessionStorage.setItem('prev', 2020);
 }
 function change(year)
 {
-    let prev = sessionStorage.getItem('prev', 2019);// integer like 2019, 2018
+    let prev = sessionStorage.getItem('prev', 2020);// integer like 2019, 2018
     if(year!=prev)
     {
         document.getElementById(year).classList.remove('d-none');
