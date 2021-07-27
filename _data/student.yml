@@ -1,20 +1,240 @@
+- id : 1 
+  year : 2020
+  name : ADITYA GANGULA
+  roll : EP20BTECH11001
 
-- id : 1
+- id : 2 
+  year : 2020
+  name : AJMEERA SANDEEP
+  roll : EP20BTECH11002
+
+- id : 3
+  year : 2020
+  name : AMAAN
+  roll : EP20BTECH11003
+
+- id : 4
+  year : 2020
+  name : DEVANANTH V
+  roll : EP20BTECH11004
+
+- id : 5
+  year : 2020
+  name : GAUREESHA KAJAMPADY
+  roll : EP20BTECH11005
+
+- id : 6 
+  year : 2020
+  name : GIDUTURI YUGANDHAR VASUDEV
+  roll : EP20BTECH11006
+
+- id : 7 
+  year : 2020
+  name : GOWRI GOVINDARAJ
+  roll : EP20BTECH11007
+
+- id : 8 
+  year : 2020
+  name : HIMANSHU ROHIT
+  roll : EP20BTECH11008
+
+- id : 9
+  year : 2020
+  name : INALA JAAHNAVI
+  roll : EP20BTECH11009
+
+- id : 10
+  year : 2020
+  name : JANGITI HARSHINI
+  roll : EP20BTECH11010
+
+- id : 11 
+  year : 2020
+  name : M DINESH KUMAR
+  roll : EP20BTECH11011
+
+- id : 12
+  year : 2020
+  name : NIHARIKA PRASHANT KUTE
+  roll : EP20BTECH11012
+
+- id : 13 
+  year : 2020
+  name : NINAD NITIN MESHRAM
+  roll : EP20BTECH11013
+
+- id : 14 
+  year : 2020
+  name : P HARSHINI
+  roll : EP20BTECH11014
+
+- id : 15 
+  year : 2020
+  name : PASUMARTI VIBHAVASU
+  roll : EP20BTECH11015
+
+- id : 16 
+  year : 2020
+  name : POTNURU SRILAKSHMI
+  roll : EP20BTECH11016
+
+- id : 17 
+  year : 2020
+  name : PRATYAKSH RAJ
+  roll : EP20BTECH11017
+
+- id : 18 
+  year : 2020
+  name : RAGHAV JUYAL
+  roll : EP20BTECH11018
+
+- id : 19 
+  year : 2020
+  name : RAHHUL J
+  roll : EP20BTECH11019
+
+- id : 20 
+  year : 2020
+  name : RAIJADE OMKAR SUNIL
+  roll : EP20BTECH11020
+
+- id : 21 
+  year : 2020
+  name : RISHABH SINGH
+  roll : EP20BTECH11021
+
+- id :  22
+  year : 2020
+  name : TANDLE VARDHAN
+  roll : EP20BTECH11022
+  
+- id :  23
+  year : 2020
+  name : TATA PRASANTH
+  roll : EP20BTECH11023
+
+- id :  24
+  year : 2020
+  name : TEJASH AGRAHARI
+  roll : EP20BTECH11024 
+
+- id :  25
+  year : 2020
+  name : VAIBHAV RAMOLA
+  roll : EP20BTECH11025
+
+- id :  26
+  year : 2020
+  name : VARENYA UPADHYAYA
+  roll : EP20BTECH11026
+
+- id : 1 
   year : 2019
   name : ASHWIN RAVI T
   roll : EP19BTECH11001
 
-- id : 2
+- id :  2
   year : 2019
   name : DIVYANSH KHARBANDA
   roll : EP19BTECH11002
 
-- id : 3
-  year : 2018
+- id :  3
+  year : 2019
   name : BADDIGAM SRI RAMA CHANDRA REDDY
   roll : EP19BTECH11003
 
-- id : 4
-  year : 2018
+- id :  4
+  year : 2019
+  name : ADVAITH P
+  roll : EP19BTECH11004
+
+- id :  5
+  year : 2019
+  name : SHAIK AMAAN AHMED
+  roll : EP19BTECH11005
+
+- id :  6
+  year : 2019
   name : DESALE PRANJAL NARENDRA
   roll : EP19BTECH11006
+
+- id :  7
+  year : 2019
+  name : VANAM VIKAS
+  roll : EP19BTECH11007
+
+- id : 8 
+  year : 2019
+  name : ALLAKA SAI SATYA PUNEETH
+  roll : EP19BTECH11008
+
+- id : 9 
+  year : 2019
+  name : THALARLA RAJNIKESHVARDHAN
+  roll : EP19BTECH11009
+
+- id :  10
+  year : 2019
+  name : AKKENAPALLI AKSHITH KUMAR
+  roll : EP19BTECH11010
+
+- id :  11
+  year : 2019
+  name : GOPANABOYINA NAMRATHA CHANDER
+  roll : EP19BTECH11011
+
+- id :  12
+  year : 2019
+  name : HRISHABH DEV KURRE
+  roll : EP19BTECH11014
+
+- id :  13
+  year : 2019
+  name : PARTH SINGH
+  roll : EP19BTECH11015
+
+- id :  14
+  year : 2019
+  name : SONA. C. VINOD
+  roll : EP19BTECH11016
+
+- id : 15 
+  year : 2019
+  name : AADIL SHAMSUDHEEN MOHAMED
+  roll : EP19BTECH11017
+
+- id :  16
+  year : 2019
+  name : VIVEK AGARWAL
+  roll : EP19BTECH11019
+
+- id :  17
+  year : 2019
+  name : SIDHARTH UDAYAN
+  roll : EP19BTECH11020
+
+- id :  18
+  year : 2019
+  name : SAI BHARGAVI GANGULA
+  roll : EP19BTECH11021
+
+- id : 19 
+  year : 2019
+  name : VATSAL KHANDELWAL
+  roll : EP19BTECH11022
+
+- id :  20
+  year : 2019
+  name : ABHINAV PODDAR
+  roll : EP19BTECH11023
+
+- id : 21 
+  year : 2019
+  name : BEVARA VARSHA HARI PRIYA
+  roll : EP19BTECH11024
+
+- id :  22
+  year : 2019
+  name : YASH TIWARI
+  roll : EP19BTECH11025
+
