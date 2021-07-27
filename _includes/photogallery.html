@@ -1,0 +1,19 @@
+<div class="grid">
+    {% for image in site.static_files %}
+      {% if image.path contains include.path %}
+      <div class="grid-item">
+          
+          <img class = "myImg" src="{{ site.baseurl }}{{ image.path }}" onclick="zoom(this);" alt="image" />
+          
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  
+  <script>
+  $(".grid").imagesLoaded(function() {
+      $(".grid").masonry({
+        itemSelector: ".grid-item"
+      });
+    });
+  </script>

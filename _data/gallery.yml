@@ -1,0 +1,15 @@
+- title: gallery1
+  id: 1
+  path: /assets/images/photogallery/gallery1
+
+- title: gallery2
+  id: 2
+  path: /assets/images/photogallery/gallery2
+
+- title: gallery3
+  id: 3
+  path: /assets/images/photogallery/gallery3
+
+- title: gallery4
+  id: 4
+  path: /assets/images/photogallery/gallery4
