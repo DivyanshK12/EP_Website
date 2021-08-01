@@ -10,6 +10,16 @@
     background-color: var(--applecore);
     color : var(--darkgrey);
 }
+.card-link
+{
+  text-decoration: none;
+  color:var(--apricot);
+  font-size: larger;
+}
+.card-link:hover
+{
+  color : var(--citrus);
+}
 .accordion-button:not(.collapsed) {
     color: var(--apricot);
     background-color: white;

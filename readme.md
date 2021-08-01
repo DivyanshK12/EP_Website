@@ -3,12 +3,10 @@
 2. Add an academics section 
     * Add courses, FA and stuff like that
 3. Add the labelled images from the drive to the gallery
-4. Add Images to research-areas pages, student pages, link research area page from home to subpage.
-5. Update the carousel on the main page with images from the drive
+4. Add Images to research-areas pages, student pages
 6. Faculty page cards aren't fully responsive, color mismatch -> look into this
 7. Add mailing links in committees, add animation to lists on student page
 8. Modify Footer image
-9. Create a page with all announcements/ news/ events and not just the latest 3( add like a view more button )
 
 # References :
 ## Gallery :
