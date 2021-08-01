@@ -17,9 +17,6 @@
 ### Images Given by usecase :
 * https://drive.google.com/drive/folders/1wlUBXusKg0MUbU7QHnR9UJXuKN2R8JjA
 
-## Home Page Research Section :
-* https://drive.google.com/drive/folders/1nTsJdiHgWCToCX2sANAuoL00_ryy2g4O
-
 ## Home Page Slideshow :
 * https://drive.google.com/drive/folders/1B63MgcXVAt3U7QDrGvBDSTrZRuWnS5U3
 

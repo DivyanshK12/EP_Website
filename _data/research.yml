@@ -1,17 +1,29 @@
 - id : 0
-  img : slider/VSM1.jpg
-  title : Magnetics
+  img : slider/research/astrophysics.jpg
+  title : Astrophysics
   text : Officia adipisicing labore voluptate voluptate proident.
-  date : 20th July 2021
+  link : /research-areas/ac
 
 - id : 1
-  img : slider/sputtering_plasma.jpg
-  title : Plasma
+  img : slider/research/ccmp.jpg
+  title : Computational Condensed Matter Physics
   text : Ea adipisicing dolor laborum aliqua quis ipsum excepteur.
-  date : 20th July 2021
+  link : /research-areas/ccmp
 
 - id : 2
-  img : slider/SQUID1_1.jpg
-  title : Quantum
+  img : slider/research/ecmp.gif
+  title : Experimental Condensed Matter Physics
   text : Culpa eu eu sint ut nisi et nulla non eiusmod minim eu duis minim dolore.
-  date : 20th July 2021
+  link : /research-areas/ecmp
+
+- id : 3
+  img : slider/research/hienergy.jpg
+  title : High Energy Physics
+  text : Culpa eu eu sint ut nisi et nulla non eiusmod minim eu duis minim dolore.
+  link : /#
+
+- id : 4
+  img : slider/research/optics.jpg
+  title : Optics, Spectroscopy and Laser-Plasma Physics
+  text : Culpa eu eu sint ut nisi et nulla non eiusmod minim eu duis minim dolore.
+  link : /#

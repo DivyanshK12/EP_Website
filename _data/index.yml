@@ -1,14 +1,19 @@
-- img : cp1.jpg
+- img : slider/carousel/IMG_0720.JPG
   id : 0
   title : First Image
   text : Nostrud adipisicing dolore ea dolore velit reprehenderit laborum amet exercitation laboris.
 
-- img : cp2.jpg
+- img : slider/carousel/IMG2.jpg
   id : 1
   title : Second Image
   text : Minim excepteur quis dolore commodo do deserunt tempor tempor exercitation sint quis sunt laboris.
 
-- img : cp3.jpg
+- img : slider/carousel/14.jpg
   id : 2
   title : Third Image
+  text : Esse anim tempor exercitation sit sint eu minim id irure ut pariatur anim est.
+
+- img : slider/carousel/desimage.png
+  id : 3
+  title : Fourth Image
   text : Esse anim tempor exercitation sit sint eu minim id irure ut pariatur anim est.

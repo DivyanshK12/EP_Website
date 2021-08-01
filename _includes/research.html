@@ -1,7 +1,7 @@
 <div class = "container m-2 p-2">
     <div class = "row">
         <div class="col-sm-5">
-            <img src = "/assets/images/slider/BoatHeating.jpg" id = "news-img">
+            <img src = "/assets/images/slider/BoatHeating.jpg" id = "news-img" >
         </div>
         <div class = "col-sm-7">
             <center><p class="title-text">Research</p></center>
@@ -14,7 +14,9 @@
                       </button>
                     </h2>
                     <div id="flush-{{ item.id }}" class="accordion-collapse collapse" aria-labelledby="flushhead-{{ item.id }}" data-bs-parent="#accordionFlushExample">
-                      <div class="accordion-body">{{ item.text }}</div>
+                      <div class="accordion-body">
+                        <p>{{ item.text }}</p>
+                        <a href = "{{item.link}}" style="text-decoration: none;">Visit</a></div>
                     </div>
                   </div>
                 {% endfor %}
