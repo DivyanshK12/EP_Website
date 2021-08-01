@@ -5,21 +5,53 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: sans-serif;
   box-sizing: border-box;
 }
-.groupPhoto{
-  border: 3px solid rgb(241, 162, 16);
-  border-radius: 10px;
+
+.groupPhoto {
+  display: flex;
+  justify-content: center;
+  /* border: 3px solid rgb(241, 162, 16); */
+  /* border-top: 5px solid #ffa500;
+  border-bottom: 5px solid #ffa500;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 12px whitesmoke; */
+}
+.groupPhoto img {
+  border-top: 5px solid #ffa500;
+  border-bottom: 5px solid #ffa500;
+  border-radius: 15px;
   box-shadow: 0 4px 8px 12px whitesmoke;
 }
 
 .flip-card {
   /* background-color: transparent; */
-  height: 400px;
+  height: 420px;
   perspective: 1000px;
   /* box-shadow: 0 4px 8px 12px whitesmoke; */
 }
+
+.col-md-4{
+  padding: 10px 20px;
+}
+
+@media (max-width: 1200px) {
+  .col-md-4 {
+    width: 30%;
+  }
+}
+@media (max-width: 1000px){
+  .col-md-4{
+    width: 50%;
+  }
+}
+@media (max-width: 540px) {
+  .col-md-4 {
+    width: 100%;
+  }
+}
+
 
 .flip-card-inner {
   position: relative;
@@ -46,8 +78,9 @@
 }
 
 .flip-card-front {
-  background-color: #EFA18A;
-  color: black;
+  /* background-color: #EFA18A; */
+  background: #ffa500;
+  color: whitesmoke;
   text-align: center;
 }
 
@@ -58,16 +91,21 @@
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: #0b5a92;
   color: white;
   padding: 6px;
-  align-items: center ;
+  align-items: center;
   transform: rotateY(180deg);
 }
+
 b {
-  color: orange;
+  color: #ffa500;
 }
-.social-media{
+.flip-card-back p{
+  color: #3feee6;
+}
+
+.social-media {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -76,6 +114,7 @@ b {
   bottom: 0pt;
   right: 5pt;
 }
-.social-media a{
+
+.social-media a {
   margin-left: 10px;
 }
