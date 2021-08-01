@@ -1,5 +1,5 @@
 - name : Kanchana. V
-  img : faculty/kanchana.jpg
+  img : kanchana.jpg
   Designation : Professor & Head of the Department
   Office : Academic Block -A, 104
   Phone : 040 2301 6702
@@ -7,9 +7,143 @@
   AreaofResearch : Exploring advanced magnetic materials from first principles theory, Understanding the thermo electric materials using band structure calculations
   FullProfile : https://www.iith.ac.in/~kanchana/
 
+- name : Anjan Kumar Giri
+  img : giri.jpg
+  Designation : Professor
+  Office : Academic Block -A, 407
+  Phone : 040 2301 6701
+  Email : giria@phy.iith.ac.in
+  AreaofResearch : To understand the Baryon asymmetry of the Universe using flavor physics and to look for signature of Physics beyond the Standard Model.
+  FullProfile : https://www.iith.ac.in/~giria/
+
+- name : Anupam Gupta
+  img : AnupamGupta.jpg
+  Designation : Assistant Professor
+  Office : C-213/B
+  Phone : 
+  Email : agupta@phy.iith.ac.in
+  AreaofResearch : Soft-matter, Biophysics, Complex Systems, Fluid Turbulence.
+  FullProfile : https://www.iith.ac.in/phy/agupta/
+
+- name : Anurag Tripathi
+  img : Tripathi.jpg
+  Designation : Assistant Professor
+  Office : B-Block, 415
+  Phone : 040 2301 6713
+  Email : tripathi@phy.iith.ac.in
+  AreaofResearch : Theoretical Particle Physics. Perturbative QCD. Feynman Loop Integral Calculations. Soft and Collinear QCD Resummation. Higgs Phenomenology.
+  FullProfile : https://www.iith.ac.in/~tripathi/
+
+- name : Arabinda Haldar
+  img : Arabinda.jpg
+  Designation : Assistant Professor
+  Office :  B-Block, 409
+  Phone : 040 2301 6717
+  Email : arabinda@phy.iith.ac.in
+  AreaofResearch : Magnon spintronics, Nanomagnetic devices, Imaging spin waves at the nanoscale using Brillouin light scattering spectro-microscopy, Ferromagnetic resonance, Thin film nanofabrication (Lithography), Functional magnetic materials.
+  FullProfile : https://ahaldar.weebly.com/
+
+- name : Bhuvanesh Ramakrishna
+  img : bhuvan.jpg
+  Designation : Associate Professor
+  Office : B-Block, 318
+  Phone : 040 2301 6712
+  Email : bhuvan@phy.iith.ac.in
+  AreaofResearch : Intense Laser Plasma Interaction, Ion acceleration, Fast Ignition Fusion.
+  FullProfile : https://bhuvaneshr.wordpress.com/
+
+- name : Joyjit Kundu
+  img : Joyjit.jpg
+  Designation : Assistant Professor
+  Office : C-Block, 112/F
+  Phone : 040 2301 6718
+  Email : jkundu@phy.iith.ac.in
+  AreaofResearch : Statistical physics of condensed matter systems.
+  FullProfile : https://sites.google.com/view/joyjitkunduhomepage/
+
+- name : Jyoti Ranjan Mohanty
+  img : Jyoti.jpg
+  Designation : Associate Professor
+  Office : B-Block, 218
+  Phone : 040 2301 6709
+  Email : jmohanty@phy.iith.ac.in
+  AreaofResearch : Nanomagnetism, Data Storage,Scanning Probe and X-ray based magnetic imaging,Ferromagnetic semiconductor, Spintronics, Resonant Magnetic scattering, Ultra-fast magnetism and Micromagnetic Simulations.
+  FullProfile : https://www.iith.ac.in/~jmohanty/
+
+- name : Kirit Makwana
+  img : kirit.jpg
+  Designation : Assistant Professor
+  Office : C-Block, 213-A
+  Phone : 040 2301 6719
+  Email : kdmakwana@phy.iith.ac.in
+  AreaofResearch : Basic plasma physics, space plasmas, plasma astrophysics, magnetic reconnection, plasma turbulence, and numerical simulations.
+  FullProfile : https://www.iith.ac.in/~kdmakwana/
+
+- name : Manish K. Niranjan
+  img : manish.jpg
+  Designation : Associate Professor
+  Office : C-Block, 516
+  Phone : 040 2301 6705
+  Email : manish@phy.iith.ac.in
+  AreaofResearch : Theoretical condenced matter physics, Computational materials science, Semiconductor heterostructures, Oxide materials and heterostructures, Electron transport in nanostructures.
+  FullProfile : https://sites.google.com/view/manish-k-niranjan/home
+
+- name : Mayukh Pahari
+  img : mayukh.jpg
+  Designation : Assistant Professor
+  Office : C-Block, 308/C
+  Phone : 040 2301 6722
+  Email : mayukh@phy.iith.ac.in
+  AreaofResearch : Black Hole Astrophysics, UV/optical/X-ray Astronomy, Active Galactic Nuclei, Relativistic Simulations.
+  FullProfile : https://www.mayukhpahari.com/
+
+- name : Narendra Sahu
+  img : sahu.jpg
+  Designation : Associate Professor
+  Office : C-Block, 402
+  Phone : 040 2301 6706
+  Email : nsahu@phy.iith.ac.in
+  AreaofResearch : Beyond SM physics, Model building (Neutrino Physics and dark matter), Leptogenesis , Direct, Indirect and Collider Search of Dark Matter.
+  FullProfile : http://physics.iith.ac.in/Narendra%20Sahu/sahu.html
+
+- name : Nithyanandan Kanagaraj
+  img : Nithyanandan.jpg
+  Designation : Assistant Professor
+  Office : C-Block, 313
+  Phone : 
+  Email : nithyan@phy.iith.ac.in
+  AreaofResearch : Theoretical and experimental aspects of Optics & Photonics, Ultrafast Fiber lasers, and amplifiers, Machine learning in (Smart) Photonic systems, Complex Photonics, Nonlinear Dynamics & Integrable Systems, Nonlinear (Fiber) Optics, Fiber Optics Communication, and Signal Processing.
+  FullProfile : https://nithyanandan.com/
+
+- name : Prem Pal
+  img : prem.jpg
+  Designation : Professor
+  Office : Academic Block -A, 410
+  Phone : 040 2301 6704
+  Email : prem@phy.iith.ac.in
+  AreaofResearch : MEMS & MicroNano System /Microelectronics technology, MEMS & MicroNano System based bio/chemical and mechanical sensors, Polymer MEMS & MicroNano System , RFMEMS & MicroNano System , Thin films for MEMS & MicroNano System , In-situ observation of semiconductor processes.
+  FullProfile : https://www.iith.ac.in/~memslab/prem.html
+
+- name : Priyotosh Bandyopadhyay
+  img : 
+  Designation : Assistant Professor
+  Office : B-Block, 506
+  Phone : 040 2301 6716
+  Email : bpriyo@phy.iith.ac.in
+  AreaofResearch : Physics at the LHC, Higgs physics, Supersymmetry.
+  FullProfile : https://sites.google.com/view/joyjitkunduhomepage/
+
+- name : Raghavendra Srikanth Hundi
+  img : srikanth.jpeg
+  Designation : Assistant Professor
+  Office : C-Block, 536
+  Phone : 040 2301 6710
+  Email : rshundi@phy.iith.ac.in
+  AreaofResearch : Particle physics phenomenology, Beyond standard model, Neutrino masses.
+  FullProfile : 
 
 - name : Sai Santosh Kumar Raavi
-  img : faculty/saisanthosh.jpg
+  img : saisanthosh.jpg
   Designation : Associate Professor
   Office : B-Block, 301
   Phone : 040 2301 6711
@@ -18,10 +152,55 @@
   FullProfile : https://sskraavi.wixsite.com/raavilab
 
 - name : Saket Asthana
-  img : faculty/saket.jpeg
+  img : saket.jpeg
   Designation : Professor
   Office : Academic Block -A, 606
   Phone : 040 2301 6703
   Email : asthanas@phy.iith.ac.in
   AreaofResearch : Multifunctional oxides, Colossal Magnetoresistive, Spintronic, Multiferroic and Magnetocaloric Materials; Spin crossover Materials, Molecular bistability and Photomagnetism. 
   FullProfile : https://www.iith.ac.in/~asthanas/
+
+- name : Saurabh Sandilya
+  img : Saurabh.jpg
+  Designation : Assistant Professor
+  Office : C-Block, 313/A
+  Phone : 040 2301 6720
+  Email : saurabh@phy.iith.ac.in
+  AreaofResearch : Search for new physics in the rare decays of B-mesons, Development of High Energy Physics Detectors, Member of Belle and Belle II Collaborations. 
+  FullProfile : 
+
+- name : Shantanu Desai
+  img : 
+  Designation : Associate Professor
+  Office : C-Block, 414
+  Phone : 040 2301 6715
+  Email : shantanud@phy.iith.ac.in
+  AreaofResearch : Observational Astrophysics.
+  FullProfile : https://www.iith.ac.in/~shantanud/
+
+- name : Shubho R. Roy
+  img : 
+  Designation : Assistant Professor
+  Office : C-Block, 533
+  Phone : 040 2301 6714
+  Email : sroy@phy.iith.ac.in
+  AreaofResearch : Holographic reconstruction of gravity from gauge theory (Gauge-Gravity duality or AdS/CFT), Quantum Aspects of Black holes using D-branes (Matrix theory), 2+1 dimensional gravity, higher spin gravity, Dynamics of non-abelian charged fluids (QGP).
+  FullProfile : https://www.iith.ac.in/~sroy/
+
+- name : Suryanarayana Jammalamadaka
+  img : surya.jpg
+  Designation : Associate Professor
+  Office : C-Block, 513
+  Phone : 040 2301 6708
+  Email : surya@phy.iith.ac.in
+  AreaofResearch : Study of magnetic materials and devices at low temparatures and high magnetic fields, magnetostrictive materials, magnetic nanoparticles/multilayers, mesoscopic physics, solar cells, magnetism in oxides.
+  FullProfile : https://www.iith.ac.in/~surya/
+
+- name : Vandana Sharma
+  img : vsharma.jpg
+  Designation : Associate Professor
+  Office : B-Block, 218
+  Phone : 040 2301 6707
+  Email : vsharma@phy.iith.ac.in
+  AreaofResearch : Ultrafast Molecular Dynamics using a combination of Ultrashort laser pulses and Cold Target Recoil Ion Momentum Spectroscopy.
+  FullProfile : https://vsharmagroupiith.wixsite.com/quantum-dynamics-lab
