@@ -1,1 +1,10 @@
 @import url('/assets/css/index.css');
+
+ul.spacer > li
+{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+p.ex1 {
+ padding-bottom: 1em;
+}
