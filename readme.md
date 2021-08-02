@@ -4,7 +4,6 @@
     * Add courses, FA and stuff like that
 3. Add the labelled images from the drive to the gallery
 4. Add Images to research-areas pages, student pages
-6. Faculty page cards aren't fully responsive, color mismatch -> look into this
 7. Add mailing links in committees, add animation to lists on student page
 8. Modify Footer image
 
