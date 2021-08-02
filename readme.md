@@ -3,7 +3,7 @@
 2. Add an academics section 
     * Add courses, FA and stuff like that
 3. Add the labelled images from the drive to the gallery
-4. Add Images to research-areas pages, student pages
+4. Add Images to research-areas pages
 7. Add mailing links in committees, add animation to lists on student page
 8. Modify Footer image
 
@@ -13,9 +13,6 @@
 * https://lokeshdhakar.com/projects/lightbox2/
 ### Images Given by usecase :
 * https://drive.google.com/drive/folders/1wlUBXusKg0MUbU7QHnR9UJXuKN2R8JjA
-
-## Home Page Slideshow :
-* https://drive.google.com/drive/folders/1B63MgcXVAt3U7QDrGvBDSTrZRuWnS5U3
 
 ## Research Areas Page (Idea):
 * http://physics.iith.ac.in/APML/ 

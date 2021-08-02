@@ -4,3 +4,19 @@ title: News
 css: info.css
 script: info.js
 ---
+<div class="container">
+    <center><h1 class="title-text mt-3 mb-3">News</h1></center>
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 mt-3 mb-3" id="head">
+        {% for item in site.data.events %}
+            <div class="col" id="ann">
+                <div class="card border-dark mb-3">
+                    <div class="card-header bg-light border-dark">{{ item.date }}</div>
+                    <div class="card-body">
+                      <a href = "{{ item.link }}" class = "link"><h5 class="card-title">{{ item.title }}</h5></a>
+                      <p class="card-text">{{ item.text }}</p>
+                    </div>
+                  </div>
+            </div>
+        {% endfor %}
+    </div>
+  </div>

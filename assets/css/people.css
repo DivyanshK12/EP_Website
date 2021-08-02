@@ -13,3 +13,19 @@
     background-color: var(--apricot) !important;
     background-image: none !important;
 }
+
+.fitter
+{
+    max-height : 80vh !important;
+}
+
+.image_wrap img
+{
+    width:100%;
+    transition: 350ms ease;
+    cursor: pointer;
+}
+.image_wrap img:hover
+{
+    transform: scale(1.05);
+}

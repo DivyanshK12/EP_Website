@@ -1,1 +1,13 @@
 @import url('/assets/css/index.css');
+
+.link 
+{
+    text-decoration: none;
+    color : var(--darkgrey);
+    -webkit-transition: color 0.2s; /* For Safari 3.0 to 6.0 */
+    transition: color 0.2s; /* For modern browsers */
+}
+.link:hover
+{
+    color: var(--apricot);
+}
