@@ -16,13 +16,13 @@
 
 .fitter
 {
-    max-height : 80vh !important;
+    max-height : 60vh !important;
 }
 
 .image_wrap img
 {
     width:100%;
-    transition: 350ms ease;
+    transition: 250ms ease;
     cursor: pointer;
 }
 .image_wrap img:hover

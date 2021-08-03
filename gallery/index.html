@@ -1,43 +1,35 @@
 ---
 layout: base
 title: Photo Gallery
-css: gallery.css
-script: gallery.js
+css : gallery.css
+script : gallery.js 
 ---
 
-<div class="row">
-  <div class="col-md-auto">
-    <div class="sidebar">
-      <ul class="sidebarul">
-        <!-- <li class="sidebarli"  onclick="change(1)" id="gal-1">gallery1</li>
+
+<body>
+    <div class="row">
+        <div class="col-md-auto">
+            
+              <div class="sidebar">
+                <ul class = "sidebarul">
+                    
+                    <!-- <li class="sidebarli"  onclick="change(1)" id="gal-1">gallery1</li>
                     <li class="sidebarli"  onclick="change(2)" id="gal-2">gallery2</li>
                     <li class="sidebarli"  onclick="change(3)" id="gal-3">gallery3</li> -->
+                    {% for item in site.data.gallery %}
+                    <li class="sidebarli"  onclick="change('{{item.id}}')" id="gal-{{item.id}}">{{item.title}}</li>
+                    {% endfor %}
+                </ul>
+              </div>
+            
+        </div>
         {% for item in site.data.gallery %}
-        <li
-          class="sidebarli"
-          onclick="change({{item.id}})"
-          id="gal-{{item.id}}"
-        >
-          {{item.title}}
-        </li>
+        
+        <div class="col {% if item.id != 1%} d-none {% endif %}" id = "{{item.id}}">  
+            {% assign temp_path = 'images/photogallery/'|append: item.title%}{% include photogrid.html path=temp_path title = item.title%} 
+        </div>
         {% endfor %}
-      </ul>
-    </div>
-  </div>
-  {% for item in site.data.gallery %}
 
-  <div class="col {% if item.id != 1%} d-none {% endif %}" id="{{item.id}}">
-    {% assign temp_path = 'images/gallery/'|append: item.title%}{% include
-    photogallery.html path=temp_path %}
-  </div>
-  {% endfor %}
-</div>
-<!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01" />
-  <div id="caption"></div>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+      </div>
+      <script src="/assets/js/lightbox-plus-jquery.min.js"></script>
+</body>

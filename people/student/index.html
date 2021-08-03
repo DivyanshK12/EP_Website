@@ -4,16 +4,67 @@ title: Students
 css: people.css
 script: student.js
 ---
+
 <div class="container">
-    <div class="row row-cols-md-3 row-cols-sm-1 p-5">
-        <div class="col-md-4 col-sm-12 image_wrap">
-            <a href="/people/student/btech"><img src="/assets/images/slider/carousel/IMG_4.jpg" class="fitter"></a>
-        </div>
-        <div class="col-md-4 col-sm-12 image_wrap">
-            <a href="/people/student/msc"><img src="/assets/images/slider/carousel/IMG_5.jpg" class="fitter"></a>
-        </div>
-        <div class="col-md-4 col-sm-12 image_wrap">
-            <a href="/people/student/phd"><img src="/assets/images/slider/carousel/IMG_6.jpg" class="fitter"></a>
-        </div>
+  <div
+    id="carouselFade"
+    class="carousel slide carousel-fade my-3"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/images/cp1.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/cp2.jpg" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/images/cp3.jpg" class="d-block w-100" alt="..." />
+      </div>
     </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselFade"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselFade"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="row justify-content-md-center m-2">
+    <div class="col-6 d-flex justify-content-center">
+      <div class="btn-group btn-group-lg">
+        <a href="/people/student/btech" class="btn orange btn-secondary">B.Tech</a>
+        <a href="/people/student/msc" class="btn orange btn-secondary">M.Sc</a>
+        <a href="/people/student/phd" class="btn orange btn-secondary ">Ph.D</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-md-3 row-cols-sm-1 p-5">
+      <div class="col-md-4 col-sm-12 image_wrap">
+        <center><h3 class="title-text m-3">B.Tech</h3></center>
+          <a href="/people/student/btech"><img src="/assets/images/slider/carousel/IMG_4.jpg" class="fitter"></a>
+      </div>
+      <div class="col-md-4 col-sm-12 image_wrap">
+        <center><h3 class="title-text m-3">M.Sc</h3></center>
+          <a href="/people/student/msc"><img src="/assets/images/slider/carousel/IMG_5.jpg" class="fitter"></a>
+      </div>
+      <div class="col-md-4 col-sm-12 image_wrap">
+        <center><h3 class="title-text m-3">Ph.D</h3></center>
+          <a href="/people/student/phd"><img src="/assets/images/slider/carousel/IMG_6.jpg" class="fitter"></a>
+      </div>
+  </div>
 </div>

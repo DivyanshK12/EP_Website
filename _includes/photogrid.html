@@ -1,0 +1,25 @@
+<div class="grid">
+  {% for file in site.static_files %}
+    {% if file.path contains include.path %}
+      {% assign lowpath = file.path | downcase %}
+        {% if lowpath contains "png" or lowpath contains "bmp" or lowpath contains "jpg" or lowpath contains "gif" or lowpath contains "jpeg" or lowpath contains "raw" or lowpath contains "xmp" %}
+        <div class="grid-item">
+            <a href="{{ site.baseurl }}{{ file.path }}" data-lightbox="{{include.title}}" data-title="{{include.title}}"><img  src="{{ site.baseurl }}{{ file.path }}" alt="image" /></a>   
+        </div>
+        {% endif %}
+        {% if lowpath contains "mov" or lowpath contains "flv" or lowpath contains "mp4" or lowpath contains "mkv" or lowpath contains "avi" or lowpath contains "wmv" %}
+        
+        <div class="grid-item "> 
+          <a href="{{ site.baseurl }}{{ file.path }}" data-lightbox="{{include.title}}" data-title="{{include.title}}">
+            <video controls="controls" preload="none" muted = "muted" onclick="this.play()">
+              <source src="{{ site.baseurl }}{{ file.path }}" type="video/mp4"> </source>
+              <source src="{{ site.baseurl }}{{ file.path }}" type="video/webm"> </source>
+              <source src="{{ site.baseurl }}{{ file.path }}" type="video/ogg"> </source> 
+              unsupported video format
+            </video>
+          </a>
+        </div> 
+        {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
