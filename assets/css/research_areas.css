@@ -5,3 +5,17 @@ ul.spacer > li
     padding-top: 2vh;
     padding-bottom: 2vh;
 }
+
+.circle {
+    position: relative;
+    width: max(14vw, 14vh);
+    height: max(14vw, 14vh);
+    overflow: hidden;
+    border-radius: 50%;
+}
+  
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
