@@ -1,50 +1,62 @@
 <header class="main-tool-bar sticky-top">
-    <div class="container">
-      <div class="d-flex flex-wrap justify-content-center">
+  <nav class="navbar navbar-dark navbar-expand-md">
+      <div class="container-fluid">
         <a href="/" class="d-flex align-items-center me-md-auto text-dark text-decoration-none">
-         <img src = "/assets/images/base/Logow.png" class="icon-nav">
-        </a>
-
-        <ul class="nav pt-2">
-          <li class="nav-item"><a href="/" class="nav-link text-white">Home</a></li>
-            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarPeople" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              People
-            </a>
-            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarPeople">
-              <li><a class="dropdown-item" href="/people/faculty">Faculty</a></li>
-              <li><a class="dropdown-item" href="#">Staff</a></li>
-              <li><a class="dropdown-item" href="/people/student">Student</a></li>
-            </ul>
-            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarResearch" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Research Areas
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarResearch">
-              <li><a class="dropdown-item" href="/research-areas/ac">Astrophysics and Cosmology</a></li>
-              <li><a class="dropdown-item" href="/research-areas/ccmp">Computational Condensed Matter Physics</a></li>
-              <li><a class="dropdown-item" href="/research-areas/ecmp">Experimental Condensed Matter Physics</a></li>
-              <li><a class="dropdown-item" href="#">High Energy Physics</a></li>
-              <li><a class="dropdown-item" href="#">Optics, Spectroscopy and Laser Plasma Physics</a></li>
-            </ul>
-            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarAcademics" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Academics
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarAcademics">
-              <li><a class="dropdown-item" href="/academics/committee">Comittees</a></li>
-              <li><a class="dropdown-item" href="/academics/fa">Faculty Advisors</a></li>
-              <li><a class="dropdown-item" href="https://docs.google.com/document/d/e/2PACX-1vSnr5PVfVClkpWLIXaIltkEHntAzGdMrTuTmH3VN5W5rtBMkYWjD-ZhUgvGPnXJT_YY6NjFAaEeT2X3/pub?embedded=true&urp=gmail_link&gxids=7628">Time-Table</a></li>
-              <li><a class="dropdown-item" href="https://www.iith.ac.in/academics/calendars-timetables/">Calender</a></li>
-              <li><a class="dropdown-item" href="/academics/acdoc">Academic Documents</a></li>
-            </ul>
-            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarPrograms" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Programs
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarPrograms">
-              <li><a class="dropdown-item" href="/programs/btech">B.Tech. (Engineering Physics) </a></li>
-              <li><a class="dropdown-item" href="/programs/msc">M.Sc</a></li>
-              <li><a class="dropdown-item" href="/programs/phd">Ph.D</a></li>
-            </ul>
-          <li class="nav-item"><a href="/gallery" class="nav-link text-white">Gallery</a></li>
-        </ul>
+          <img src = "/assets/images/base/Logow.png" class="icon-nav">
+         </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a href="/" class="nav-link text-white">Home</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarPeople" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                People
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarPeople">
+                <li><a class="dropdown-item" href="/people/faculty">Faculty</a></li>
+                <li><a class="dropdown-item" href="#">Staff</a></li>
+                <li><a class="dropdown-item" href="/people/student">Student</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarResearch" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Research Areas
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarResearch">
+                <li><a class="dropdown-item" href="/research-areas/ac">Astrophysics and Cosmology</a></li>
+                <li><a class="dropdown-item" href="/research-areas/ccmp">Computational Condensed Matter Physics</a></li>
+                <li><a class="dropdown-item" href="/research-areas/ecmp">Experimental Condensed Matter Physics</a></li>
+                <li><a class="dropdown-item" href="#">High Energy Physics</a></li>
+                <li><a class="dropdown-item" href="#">Optics, Spectroscopy and Laser Plasma Physics</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarAcademics" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Academics
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarAcademics">
+                <li><a class="dropdown-item" href="/academics/committee">Comittees</a></li>
+                <li><a class="dropdown-item" href="/academics/fa">Faculty Advisors</a></li>
+                <li><a class="dropdown-item" href="https://docs.google.com/document/d/e/2PACX-1vSnr5PVfVClkpWLIXaIltkEHntAzGdMrTuTmH3VN5W5rtBMkYWjD-ZhUgvGPnXJT_YY6NjFAaEeT2X3/pub?embedded=true&urp=gmail_link&gxids=7628">Time-Table</a></li>
+                <li><a class="dropdown-item" href="https://www.iith.ac.in/academics/calendars-timetables/">Calender</a></li>
+                <li><a class="dropdown-item" href="/academics/acdoc">Academic Documents</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" id="navbarPrograms" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Programs
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarPrograms">
+                <li><a class="dropdown-item" href="/programs/btech">B.Tech</a></li>
+                <li><a class="dropdown-item" href="/programs/msc">M.Sc</a></li>
+                <li><a class="dropdown-item" href="/programs/phd">Ph.D</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="/gallery" class="nav-link text-white">Gallery</a></li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
   </header>

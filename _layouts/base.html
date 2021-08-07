@@ -15,8 +15,8 @@
     <link href = "/assets/css/{{ page.css }}" rel = "stylesheet">
     <title>{{ page.title }}</title>
   </head>
-  {% include navigation.html %}
       <body>
+        {% include navigation.html %}
         <main>
           {{ content }}
         </main>
@@ -26,6 +26,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
         <script type="text/javascript" src="/assets/js/base.js"></script>
         <script type="text/javascript" src="/assets/js/{{ page.script }}"></script>
+        {% include footer.html %}
       </body>
-      {% include footer.html %}
 </html>
