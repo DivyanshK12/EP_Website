@@ -1,8 +1,10 @@
 :root
 {
-  --darkgrey : #333a44;
-  --apricot : #f7882f;
-  --citrus : #f7c331;
+  --darkgrey : #1a3947;/* #333a44*/
+  --grey : #566575;
+  --lightgrey : #797983;
+  --apricot : #f5751d;
+  --citrus : #fca26e;
   --applecore : #ffffff;
   --white : #ffffff;
 }
@@ -51,6 +53,11 @@ html {
 .dropdown-menu > li > a:hover {
   background-image: none;
   background-color: var(--apricot);
+  color : white;
+}
+.dropdown-menu > li > a:focus {
+  background-image: none;
+  background-color: var(--citrus);
   color : white;
 }
 /* Scrollbars */
