@@ -1,15 +1,15 @@
 window.onload = () => {
-    sessionStorage.setItem('prevProg', 2020);
+    sessionStorage.setItem('prevProg', 'about');
 }
-function change(year)
+function change(field)
 {
-    let prev = sessionStorage.getItem('prevProg', 2020);// integer like 2019, 2018
-    if(year!=prev)
+    let prev = sessionStorage.getItem('prevProg', 'about');// integer like 2019, 2018
+    if(field!=prev)
     {
-        document.getElementById(year).classList.remove('d-none');
-        document.getElementById(`nav-${year}`).classList.add('active');
+        document.getElementById(field).classList.remove('d-none');
+        document.getElementById(`nav-${field}`).classList.add('active');
         document.getElementById(prev).classList.add('d-none');
         document.getElementById(`nav-${prev}`).classList.remove('active');
-        sessionStorage.setItem('prevProg', year);
+        sessionStorage.setItem('prevProg', field);
     }
 }
