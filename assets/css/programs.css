@@ -13,3 +13,7 @@
     background-color: var(--apricot) !important;
     background-image: none !important;
 }
+
+body {
+    text-align: center;
+}
