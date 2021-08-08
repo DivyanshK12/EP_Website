@@ -1,15 +1,19 @@
-- title: gallery1
+- title: Department Day & others events
   id: 1
-  path: /assets/images/photogallery/gallery1
+  path: /assets/images/photogallery/Department Day & others events
 
-- title: gallery2
+- title: Research lab
   id: 2
-  path: /assets/images/photogallery/gallery2
+  path: /assets/images/photogallery/Research lab
 
-- title: gallery3
+- title: Student & faculty foreign visit
   id: 3
-  path: /assets/images/photogallery/gallery3
+  path: /assets/images/photogallery/Student & faculty foreign visit
 
-- title: gallery4
+- title: Teaching labs
   id: 4
-  path: /assets/images/photogallery/gallery4
+  path: /assets/images/photogallery/Teaching labs
+
+- title: Workshop,seminars & conferences
+  id: 5
+  path: /assets/images/photogallery/Workshop,seminars & conferences

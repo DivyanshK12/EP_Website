@@ -31,5 +31,12 @@ script : gallery.js
         {% endfor %}
 
       </div>
-      <script src="/assets/js/lightbox-plus-jquery.min.js"></script>
+      <script src="/assets/js/fslightbox.js"></script>
+      {% for item in site.data.gallery %}
+
+      <script>
+        var itemtitle = '{{item.title}}'
+        fsLightboxInstances[itemtitle].props.captions = ['<h2>Example caption</h2>'];;
+      </script>
+      {%endfor%}
 </body>
