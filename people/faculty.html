@@ -28,7 +28,7 @@ script: index.js
 <div class="container-fluid" style="margin-top: 3%;">
   <h1 class="text-center">Beloved Faculty Members</h1>
   <div class="container groupPhoto">
-    <img src="/assets/images/faculty/faculty.jpg" width="120%" alt="Group Photo">
+    <img src="/assets/images/faculty/faculty.jpg" width="100%" alt="Group Photo">
   </div>
 </div>
 <div class="container">
@@ -39,8 +39,8 @@ script: index.js
         <div class="flip-card-inner">
           <div class="flip-card-front">
             <img src="/assets/images/faculty/{{prof.img}}" alt="">
-            <h4 class="mt-3">{{prof.name}}</h4>
-            <h5 class="mt-3 text-muted">{{prof.Designation}}</h5>
+            <p class="mt-3 h4 fw-bolder">{{prof.name}}</p>
+            <h5 class="mt-3 text-white fw-bolder">{{prof.Designation}}</h5>
           </div>
           <div class="flip-card-back">
             <p><b>Office: </b>{{prof.Office}}</p>
@@ -49,9 +49,9 @@ script: index.js
             <p><b>Area of Research: </b>{{prof.AreaofResearch}}</p>
             <div class="social-media text-center">
               <a href="mailto:{{prof.email}}"><i class="bi bi-envelope-fill"
-                  style="font-size: 2.5rem; color: burlywood; margin-bottom: 50px;"></i></a>
+                  style="font-size: 2.0rem; color: #fca26e; margin-bottom: 50px;"></i></a>
               <a href="{{prof.FullProfile}}">
-                <button class="btn btn-success" style="float: right; border-radius: 20px;">
+                <button class="btn btn-light" style="float: right; border-radius: 20px;">
                   Full Profile <i class="bi bi-arrow-right"></i> </button>
               </a>
             </div>
