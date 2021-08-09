@@ -1,21 +1,96 @@
-@import url('/assets/css/index.css');
+@import url("/assets/css/index.css");
 
-ul.spacer > li
-{
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+ul.spacer > li {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 .circle {
-    position: relative;
-    width: max(14vw, 14vh);
-    height: max(14vw, 14vh);
-    overflow: hidden;
-    border-radius: 50%;
+  position: relative;
+  width: max(14vw, 14vh);
+  height: max(14vw, 14vh);
+  overflow: hidden;
+  border-radius: 50%;
 }
-  
+
 .circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* How To Use */
+.how-container {
+  margin-top: 30px;
+  width: 100%;
+  height: 25vw;
+  margin-bottom: 50px;
+}
+
+.left-container {
+  float: left;
+  height: 25vw;
+  width: 50%;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 25vw;
+
+  width: 50%;
+  float: left;
+}
+
+.left-content {
+  width: 50%;
+  height: 25vw;
+}
+
+.right-content {
+  max-width: 50%;
+}
+
+@media screen and (max-width: 999px) {
+  .how-container {
+    display: block;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: auto;
+    text-align: center;
+    margin: 0 auto 60px auto;
+  }
+  .left-container {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: none;
+    text-align: center;
+    margin: 15px auto 0px auto;
+  }
+  .right-container {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: none;
+    text-align: center;
+    margin: 15px auto 0px auto;
+  }
+  .left-content {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: none;
+    text-align: center;
+    margin: 15px auto 0px auto;
+  }
+  .right-content {
+    display: block;
+    width: 100%;
+    height: auto;
+    float: none;
+    text-align: center;
+    margin: 15px auto 0px auto;
+    max-width: 90%;
+  }
 }

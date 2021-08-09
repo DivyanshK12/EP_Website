@@ -81,3 +81,69 @@ html {
     border-radius: 20px;
     border: 3px solid var(--white);
   }
+
+  footer ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    display: block;
+    padding: 5px;
+    font-weight: 300;
+    transition: 0.2s ease;
+  }
+
+  .col-md-7 h5, .col-md-5 h5{
+    border-bottom: 2px solid var(--citrus);
+    padding: 4px;
+  }
+
+  footer ul li a:hover {
+    padding-left: 20px;
+  }
+
+  /* for mobile phone */
+  @media(max-width: 500px) {
+
+    .col, .col-md-7 h5{
+      display: block;
+      width: 200%;
+      margin-bottom: 20px;
+    }
+
+    .col ul li a {
+      width: 200%;
+    }
+
+    .col img, small {
+      width: 200%;
+    }
+
+    .col-md-5 {
+      width: 100%;
+    }
+  }
+
+  /* for tabs and ipads */
+  @media(max-width: 900px) {
+    .col-md-7 {
+      width: 50%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: var(--grey);
+    color:var(--citrus);
+    margin: 0px 8px 8px 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .social-links a:hover {
+    color: var(--apricot);
+    background-color: #ffffff;
+  }
