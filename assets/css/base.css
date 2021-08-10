@@ -86,7 +86,7 @@ html {
     text-decoration: none;
     text-transform: capitalize;
     display: block;
-    padding: 5px;
+    padding: 10px;
     font-weight: 300;
     transition: 0.2s ease;
   }
@@ -97,7 +97,7 @@ html {
   }
 
   footer ul li a:hover {
-    padding-left: 20px;
+    padding-left: 25px;
   }
 
   /* for mobile phone */
