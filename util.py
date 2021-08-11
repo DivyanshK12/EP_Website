@@ -5,15 +5,13 @@ def csv_to_yml(csv_filename : str = "in", yml_filename : str = "out") -> None:
     with open(csv_filename, newline='') as csvfile :
         filereader = csv.reader(csvfile)
         colnames = next(filereader)
+        index = 0
         with open(yml_filename, 'w') as outfile:
             for data in filereader:
-                outfile.write("-")
-                first = True
+                outfile.write(f"- id : {index}\n")
                 for key, val in zip(colnames, data):
-                    if not first :
-                        outfile.write(" ")
-                    outfile.write(f" {key} : {val}\n")
-                    first = False
+                    outfile.write(f"  {key} : {val}\n")
+                index+=1
                 outfile.write("\n")
     print(f"Completed writing to {yml_filename}")
 
