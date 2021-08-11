@@ -11,11 +11,6 @@
 .groupPhoto {
   display: flex;
   justify-content: center;
-  /* border: 3px solid rgb(241, 162, 16); */
-  /* border-top: 5px solid #ffa500;
-  border-bottom: 5px solid #ffa500;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px 12px whitesmoke; */
 }
 .groupPhoto img {
   border-top: 5px solid var(--apricot);
