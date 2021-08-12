@@ -1,7 +1,7 @@
 import csv
 import sys
 
-def csv_to_yml(csv_filename : str = "in", yml_filename : str = "out") -> None:
+def csv_to_yml(csv_filename : str = "in.csv", yml_filename : str = "out.yml") -> None:
     with open(csv_filename, newline='') as csvfile :
         filereader = csv.reader(csvfile)
         colnames = next(filereader)
