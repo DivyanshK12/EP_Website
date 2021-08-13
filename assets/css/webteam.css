@@ -1,5 +1,4 @@
-
-
+@import url('/assets/css/index.css');
 
 .container .mycard{
   /* trying neumorphism========= */
@@ -9,15 +8,11 @@
   -25px -25px 49px #ffd035; */
 
   border-radius: 10px;
-  background: linear-gradient(to bottom, #f5751d, #fca26e);
-  box-shadow: 1px 1px  #d06319,
-              -1px -1px  #ff8721;
+  background: linear-gradient(to bottom, var(--apricot), var(--citrus));
 
   position: relative;
   width: 300px;
   height: 250px;
-  /* border-radius: 10px; */
-  /* background: #FFB52E; */
   margin: 30px 10px;
   padding: 20px 15px;
   display: flex;
@@ -26,10 +21,7 @@
 }
 
 .container .mycard:hover{
-  height: 350px; /* increase this height if u want to add social media icons*/
-  /* box-shadow: 0px 4px 8px 4px rgba(245, 133, 6, 0.5); */
-  box-shadow: 2px 2px 5px #d99a27,
-              -2px -2px 5px #ffd035;
+  height: 400px; /* increase this height if u want to add social media icons*/
 }
 
 .container .mycard .cimg{
@@ -45,9 +37,9 @@
 
 .container .mycard .cimg img{
   max-width: 100%;
-  box-shadow: 0px 3px 20px rgba(245, 133, 6, 0.5);
   border-radius: 10px;
   /* border-radius: 50px; */
+  object-fit: cover;
 }
 
 .container .mycard .cdetails{
@@ -57,7 +49,6 @@
   position: relative;
   margin-top: -160px; /* it was -160px */
   padding: 10px 15px;
-  font-family: monospace;
   visibility: hidden;
   opacity: 0;
   transition: 0.4s ease-in-out;
@@ -68,7 +59,6 @@
   padding: 10px 12px;
   background: #fff;
   border-radius: 50%;
-  box-shadow: 0px 2px 2px 0px rgba(255,255,255,0.2);
 }
 
 .container .mycard:hover .cdetails{

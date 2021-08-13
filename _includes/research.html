@@ -1,15 +1,17 @@
 <div class = "container m-2 p-2">
-    <div class = "row">
-        <div class="col-sm-5">
-            <img src = "/assets/images/slider/BoatHeating.jpg" id = "news-img" >
+    <div class = "row row-cols-sm-1 row-cols-md-2">
+        <div class="col-md-5">
+            {% for item in site.data.research %}
+              <img src = "/assets/images/{{ item.img }}" id = "news-img-{{item.id}}" class="news-img {% if item.id != 0 %} d-none {% endif %}" title="{{ item.title }}">
+            {% endfor %}
         </div>
-        <div class = "col-sm-7">
+        <div class = "col">
             <center><p class="title-text">Research</p></center>
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 {% for item in site.data.research %}
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flushhead-{{ item.id }}">
-                      <button class="accordion-button collapsed" type="button" onclick = "logger('{{ item.img }}')" data-bs-toggle="collapse" data-bs-target="#flush-{{ item.id }}" aria-expanded="false" aria-controls="flush-{{ item.id }}" name="flush-{{ item.id }}">
+                      <button class="accordion-button collapsed" type="button" onclick = "logger('{{ item.id }}')" data-bs-toggle="collapse" data-bs-target="#flush-{{ item.id }}" aria-expanded="false" aria-controls="flush-{{ item.id }}" name="flush-{{ item.id }}">
                         {{ item.title }}
                       </button>
                     </h2>
