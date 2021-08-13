@@ -1,3 +1,4 @@
+
 - name : Kanchana. V
   img : kanchana.jpg
   Designation : Professor & Head of the Department
@@ -27,6 +28,42 @@
 
 - name : Anurag Tripathi
   img : Tripathi.jpg
+  Designation : Assistant Professor
+  Office : B-Block, 415
+  Phone : 040 2301 6713
+  Email : tripathi@phy.iith.ac.in
+  AreaofResearch : Theoretical Particle Physics. Perturbative QCD. Feynman Loop Integral Calculations. Soft and Collinear QCD Resummation. Higgs Phenomenology.
+  FullProfile : https://www.iith.ac.in/~tripathi/
+
+- name : Kanchana. V
+  img : nobg/kanchana.jpg
+  Designation : Professor & Head of the Department
+  Office : Academic Block -A, 104
+  Phone : 040 2301 6702
+  Email : kanchana@phy.iith.ac.in
+  AreaofResearch : Computational Condensed matter physics, Topological materials, Magnetism and superconductivity, Energy Harvesting materials, Spintronic applications.
+  FullProfile : https://www.iith.ac.in/~kanchana/
+
+- name : Anjan Kumar Giri
+  img : nobg/giri.jpg
+  Designation : Professor
+  Office : Academic Block -A, 407
+  Phone : 040 2301 6701
+  Email : giria@phy.iith.ac.in
+  AreaofResearch : Understanding the baryon asymmetry of the Universe and to decipher the signals of new physics (BSM) using flavour physics and neutrino physics.
+  FullProfile : https://www.iith.ac.in/~giria/
+
+- name : Anupam Gupta
+  img : nobg/AnupamGupta.jpg
+  Designation : Assistant Professor
+  Office : C-208/D
+  Phone : 040 2301 6719
+  Email : agupta@phy.iith.ac.in
+  AreaofResearch : Soft-matter, Biophysics, Complex Systems, Fluid Turbulence.
+  FullProfile : https://www.iith.ac.in/phy/agupta/
+
+- name : Anurag Tripathi
+  img : nobg/Tripathi.jpg
   Designation : Assistant Professor
   Office : B-Block, 415
   Phone : 040 2301 6713
