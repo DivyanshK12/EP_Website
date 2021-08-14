@@ -1,14 +1,14 @@
 - id : 0
-  title : PhD programme 2021
+  title : Selected candidates for PhD programme 2021
   text : List of selected candidates for PhD Programme - 2021 is out now along with waiting list candidates...
   date : Aug 2021
   link : http://physics.iith.ac.in/phd/PH_PhD_July2021_Selected.pdf
 
 - id : 1
-  title : Apply for JRF Positions
-  text : Applications are invited for JRF positions...
-  date : --
-  link : http://physics.iith.ac.in/JRF/JRF_position_vsharma.pdf
+  title : Matter of Celebration
+  text : Prof. Kanchana selected as Fellow of RSC and Institute of Physics (UK).
+  date : ---
+  link : 
 
 - id : 2
   title : Start date of current round 
@@ -17,36 +17,42 @@
   link : http://physics.iith.ac.in/index.html#
 
 - id : 3
+  title : Apply for JRF Positions
+  text : Applications are now invited for JRF positions to work in the research group of Dr.Vandana Sharma.
+  date : 22nd Mar 2020
+  link : http://physics.iith.ac.in/JRF/JRF_position_vsharma.pdf
+
+- id : 4
   title : International Workshop on Laboratory Astrophysics and Intense Laser.
   text : International Workshop on Laboratory Astrophysics with Intense Laser. Particle Generation And Application.
   date : 7-8th Dec 2020
   link : https://www.indouklaserworkshop.com/
 
-- id : 4
+- id : 5
   title : APML webinar series
   text : checkout the AIPML webinar series...
   date : 25th Aug - 15th Dec 2020
   link : http://physics.iith.ac.in/APML/
 
-- id : 5
+- id : 6
   title : Rolling PhD admissions
   text : Rolling PhD admissions...
   date : 
   link : http://physics.iith.ac.in/phd/Rolling_PhD.pdf
 
-- id : 6
+- id : 7
   title : Quantum Information in QFT and AdS/CFT
   text : Workshop organised to discuss recent developments on quantum information and computation applied to field theory and holography...
   date : 6-7th Aug 2020
   link : https://events.iitgn.ac.in/2020/QI/
 
-- id : 7
+- id : 8
   title : Anomalies 2020
   text : Annual event of Physics Department
   date : 11-13th Sep 2020
   link : https://www.iith.ac.in/~anomalies19/anomalies2020.html
 
-- id : 8
+- id : 9
   title : Department Alumni Details form
   text : Fill the department alumni form 
   date : 
