@@ -1,17 +1,54 @@
 - id : 0
-  title : First Event
-  text : Officia adipisicing labore voluptate voluptate proident.
-  date : 20th July 2021
-  link : /#
+  title : PhD programme 2021
+  text : List of selected candidates for PhD Programme - 2021 is out now along with waiting list candidates...
+  date : 
+  link : http://physics.iith.ac.in/phd/PH_PhD_July2021_Selected.pdf
 
 - id : 1
-  title : Second Event
-  text : Ea adipisicing dolor laborum aliqua quis ipsum excepteur.
-  date : 20th July 2021
-  link : /#
+  title : Apply for JRF Positions
+  text : Applications are invited for JRF positions...
+  date : 
+  link : http://physics.iith.ac.in/JRF/JRF_position_vsharma.pdf
 
 - id : 2
-  title : Third Event
-  text : Culpa eu eu sint ut nisi et nulla non eiusmod minim eu duis minim dolore.
-  date : 20th July 2021
-  link : /#
+  title : Start date of current round 
+  text : All faculty applications received till June 2nd, 2020 have been considered, and the round is closed. Date of start for the current round is 3rd June 2020. 
+  date : 3rd June 2020
+  link : http://physics.iith.ac.in/index.html#
+
+- id : 3
+  title : International Workshop on Laboratory Astrophysics and Intense Laser.
+  text : International Workshop on Laboratory Astrophysics with Intense Laser. Particle Generation And Application.
+  date : 7-8th Dec 2020
+  link : https://www.indouklaserworkshop.com/
+
+- id : 4
+  title : APML webinar series
+  text : checkout the AIPML webinar series...
+  date : 25th Aug - 15th Dec 2020
+  link : http://physics.iith.ac.in/APML/
+
+- id : 5
+  title : Rolling PhD admissions
+  text : Rolling PhD admissions...
+  date : 
+  link : http://physics.iith.ac.in/phd/Rolling_PhD.pdf
+
+- id : 6
+  title : Quantum Information in QFT and AdS/CFT
+  text : Workshop organised to discuss recent developments on quantum information and computation applied to field theory and holography...
+  date : 6-7th Aug 2020
+  link : https://events.iitgn.ac.in/2020/QI/
+
+- id : 7
+  title : Anomalies 2020
+  text : Annual event of Physics Department
+  date : 11-13th Sep 2020
+  link : https://www.iith.ac.in/~anomalies19/anomalies2020.html
+
+- id : 8
+  title : Department Alumni Details form
+  text : Fill the department alumni form 
+  date : 
+  link : https://docs.google.com/forms/d/1jHSnVInEIqVD1QUq_9eSA0dxZP_XUJrMhVbb7ZZW-fs/formrestricted
+
