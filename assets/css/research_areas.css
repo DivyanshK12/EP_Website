@@ -7,12 +7,22 @@ ul.spacer > li {
 
 .circle {
   position: relative;
-  width: max(14vw, 14vh);
-  height: max(14vw, 14vh);
   overflow: hidden;
   border-radius: 50%;
 }
 
+@media (min-width: 1000px){
+  .circle{
+    width: 14vw;
+    height: 14vw;
+  }
+}
+@media (max-width: 1000px) {
+  .circle {
+    width: 16vh;
+    height: 16vh;
+  }
+}
 .circle img {
   width: 100%;
   height: 100%;
