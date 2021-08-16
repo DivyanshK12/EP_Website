@@ -1,7 +1,16 @@
-function logger(image)
+window.onload = () => {
+  sessionStorage.setItem('prevSlide', 'news-img-0');
+}
+function logger(id)
 {
-    let newsImg = document.getElementById('news-img');
-    newsImg.src = `/assets/images/${image}`;
+  let field = `news-img-${id}`;
+  let prev = sessionStorage.getItem('prevSlide', 'news-img-0');// integer like 2019, 2018
+  if(field!=prev)
+  {
+      document.getElementById(field).classList.remove('d-none');
+      document.getElementById(prev).classList.add('d-none');
+      sessionStorage.setItem('prevSlide', field);
+  }
 }
 gsap.registerPlugin(ScrollTrigger);
 ScrollTrigger.defaults({

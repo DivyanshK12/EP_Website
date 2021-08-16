@@ -1,17 +1,19 @@
+
 - id : 0
-  title : First Event
-  text : Officia adipisicing labore voluptate voluptate proident.
-  date : 20th July 2021
-  link : /#
+  title : Introduction to Field Theory
+  text : An Introductory course on Field Theory being offered by Prof. Anurag Tripathi
+  date : Ongoing
+  link : https://onlinecourses.nptel.ac.in/noc21_ph28/preview
 
 - id : 1
-  title : Second Event
-  text : Ea adipisicing dolor laborum aliqua quis ipsum excepteur.
-  date : 20th July 2021
-  link : /#
+  title : Introduction to Classical Mechanics
+  text : An Introductory course on Classical Mechanics being offered by Prof. Anurag Tripathi
+  date : Ongoing
+  link : https://onlinecourses.nptel.ac.in/noc21_ph29/preview
 
 - id : 2
-  title : Third Event
-  text : Culpa eu eu sint ut nisi et nulla non eiusmod minim eu duis minim dolore.
-  date : 20th July 2021
-  link : /#
+  title : Introduction to Classical Mechanics
+  text : An Introductory course on Classical Mechanics being offered by Prof. Anurag Tripathi
+  date : Ongoing
+  link : https://onlinecourses.nptel.ac.in/noc21_ph29/preview
+

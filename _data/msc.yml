@@ -1,0 +1,785 @@
+- id : 1
+  year : 2011
+  name : Anita Kumari
+  roll : PH11M01
+
+- id : 2
+  year : 2011
+  name : Asmita Kumari
+  roll : PH11M02
+
+- id : 3
+  year : 2011
+  name : Chandrama Ganguly
+  roll : PH11M03
+
+- id : 4
+  year : 2011
+  name : Mujeeb Ahmad
+  roll : PH11M04
+
+- id : 5
+  year : 2011
+  name : Mukesh Chawla
+  roll : PH11M05
+
+- id : 6
+  year : 2011
+  name : Sanjeev Kumar
+  roll : PH11M06
+
+- id : 7
+  year : 2011
+  name : Saptashwa Bhattacharya
+  roll : PH11M07
+
+- id : 8
+  year : 2011
+  name : Swasti Arya
+  roll : PH11M08
+
+- id : 1
+  year : 2012
+  name : Aashish Kumar 
+  roll : PH12M1001
+
+- id : 2
+  year : 2012
+  name : Arnab Sarkar
+  roll : PH12M1002
+
+- id : 3
+  year : 2012
+  name : Asim Das
+  roll : PH12M1003
+
+- id : 4
+  year : 2012
+  name : Biswajit Dutta
+  roll : PH12M1004
+
+- id : 5
+  year : 2012
+  name : Digvijay Kharga
+  roll : PH12M1005
+
+- id : 6
+  year : 2012
+  name : Dipayan Pal
+  roll : PH12M1006
+
+- id : 7
+  year : 2012
+  name : Kamalesh Jana
+  roll : PH12M1007
+
+- id : 8
+  year : 2012
+  name : Mangalika Sinha
+  roll : PH12M1008
+
+- id : 9
+  year : 2012
+  name : Nilabja Kanti Sarkar
+  roll : PH12M1009
+
+- id : 10
+  year : 2012
+  name : Pragati Mitra
+  roll : PH12M1010
+
+- id : 11
+  year : 2012
+  name : Raya Dastidar
+  roll : PH12M1011
+
+- id : 12
+  year : 2012
+  name : Souvik Ghosh
+  roll : PH12M1012
+
+- id : 13
+  year : 2012
+  name : Subhomoy Haldar
+  roll : PH12M1013
+
+- id : 14
+  year : 2012
+  name : Swagata Barma
+  roll : PH12M1014
+
+- id : 15
+  year : 2012
+  name : Tithi Roy
+  roll : PH12M1015
+
+- id : 1
+  year : 2013
+  name : ABHINAV KUMAR
+  roll : PH13M1001
+
+- id : 2
+  year : 2013
+  name : Angad Yuvraj Singh
+  roll : PH13M1002
+
+- id : 3
+  year : 2013
+  name : ANIMESH ADHIKARI 
+  roll : PH13M1003
+
+- id : 4
+  year : 2013
+  name : BRIJESH
+  roll : PH13M1004
+
+- id : 5
+  year : 2013
+  name : CHAYAN MAJUMDAR 
+  roll : PH13M1005
+
+- id : 6
+  year : 2013
+  name : MAITRAIYEE TIWARI
+  roll : PH13M1006
+
+- id : 7
+  year : 2013
+  name : MANODEEP MONDAL
+  roll : PH13M1007
+
+- id : 8
+  year : 2013
+  name : MEKHA VIMAL
+  roll : PH13M1008
+
+- id : 9
+  year : 2013
+  name : PASWA NATH
+  roll : PH13M1009
+
+- id : 10
+  year : 2013
+  name : RAJESH KUMAR
+  roll : PH13M1010
+
+- id : 11
+  year : 2013
+  name : RAMACHANDRAPPA  MUTTANNAVAR
+  roll : PH13M1011
+
+- id : 12
+  year : 2013
+  name : RAVI YADAV 
+  roll : PH13M1012
+
+- id : 13
+  year : 2013
+  name : SHIVANI SINGH
+  roll : PH13M1013
+
+- id : 14
+  year : 2013
+  name : SOUMITA MONDAL 
+  roll : PH13M1014
+
+- id : 15
+  year : 2013
+  name : SUPRIYA SENAPATI
+  roll : PH13M1015
+
+- id : 1
+  year : 2014
+  name : AKASH JAISWAL  
+  roll : PH14MSCST11001
+
+- id : 2
+  year : 2014
+  name : ANOOP K CHANDRAN
+  roll : PH14MSCST11003
+
+- id : 3
+  year : 2014
+  name : ARUNIMA BHATTACHARYA
+  roll : PH14MSCST11004
+
+- id : 4
+  year : 2014
+  name : JOYDEEP DAS
+  roll : PH14MSCST11006
+
+- id : 5
+  year : 2014
+  name : JOYDEV KHATUA
+  roll : PH14MSCST11007
+
+- id : 6
+  year : 2014
+  name : KRISHNA KANT ODITYA 
+  roll : PH14MSCST11008
+
+- id : 7
+  year : 2014
+  name : NIKUNJ AGARWAL 
+  roll : PH14MSCST11009
+
+- id : 8
+  year : 2014
+  name : SACHIN GROVER  
+  roll : PH14MSCST11010
+
+- id : 9
+  year : 2014
+  name : SAMBO SARKAR 
+  roll : PH14MSCST11011
+
+- id : 10
+  year : 2014
+  name : SHWETA DALAL   
+  roll : PH14MSCST11012
+
+- id : 11
+  year : 2014
+  name : SOUBHIK KAYAL  
+  roll : PH14MSCST11013
+
+- id : 1
+  year : 2015
+  name : AAKASH BAGGA
+  roll : PH15MSCST11001
+
+- id : 2
+  year : 2015
+  name : ALAPAN PAL
+  roll : PH15MSCST11002
+
+- id : 3
+  year : 2015
+  name : ANBU SELVAM VENKATACHALAM
+  roll : PH15MSCST11003
+
+- id : 4
+  year : 2015
+  name : ANISH NINAD AGASHE
+  roll : PH15MSCST11004
+
+- id : 5
+  year : 2015
+  name : ANUPRAVA MANDAL
+  roll : PH15MSCST11005
+
+- id : 6
+  year : 2015
+  name : ASHISH CHANDRA
+  roll : PH15MSCST11006
+
+- id : 7
+  year : 2015
+  name : ASHISH SHARMA
+  roll : PH15MSCST11007
+
+- id : 8
+  year : 2015
+  name : DEBASHIS MUKHERJEE
+  roll : PH15MSCST11008
+
+- id : 9
+  year : 2015
+  name : DEBOBRATA RAJAK
+  roll : PH15MSCST11009
+
+- id : 10
+  year : 2015
+  name : KHUNJAMAYUM RESHIKANTA SINGH
+  roll : PH15MSCST11010
+
+- id : 11
+  year : 2015
+  name : KRISHNAPADA DAS
+  roll : PH15MSCST11011
+
+- id : 12
+  year : 2015
+  name : LAL CHAND SWAMI
+  roll : PH15MSCST11012
+
+- id : 13
+  year : 2015
+  name : MAHENDER SINGH
+  roll : PH15MSCST11013
+
+- id : 14
+  year : 2015
+  name : MALOTH UMENDER SINGH
+  roll : PH15MSCST11014
+
+- id : 15
+  year : 2015
+  name : RAJ KUMAR SHARMA
+  roll : PH15MSCST11015
+
+- id : 16
+  year : 2015
+  name : SATYAJIT KERKETTA
+  roll : PH15MSCST11016
+
+- id : 17
+  year : 2015
+  name : SHALINI GANGULY
+  roll : PH15MSCST11017
+
+- id : 1
+  year : 2016
+  name : ABHINANDAN YADAV
+  roll : PH16MSCST11001
+
+- id : 2
+  year : 2016
+  name : AKSHAT JAIN
+  roll : PH16MSCST11002
+
+- id : 3
+  year : 2016
+  name : ANKITA GUPTAROY
+  roll : PH16MSCST11003
+
+- id : 4
+  year : 2016
+  name : ANUJ KUMAR
+  roll : PH16MSCST11004
+
+- id : 5
+  year : 2016
+  name : ARJUN KUMAR
+  roll : PH16MSCST11005
+
+- id : 6
+  year : 2016
+  name : KEVIN ROY
+  roll : PH16MSCST11007
+
+- id : 7
+  year : 2016
+  name : PRANAB JYOTI DEKA
+  roll : PH16MSCST11008
+
+- id : 8
+  year : 2016
+  name : SACHIN NARAYANRAO CHINTALWAD
+  roll : PH16MSCST11009
+
+- id : 9
+  year : 2016
+  name : SEERAM DURGA TEJA
+  roll : PH16MSCST11010
+
+- id : 10
+  year : 2016
+  name : SHILPA JANGID
+  roll : PH16MSCST11011
+
+- id : 11
+  year : 2016
+  name : SHIVAM ARORA
+  roll : PH16MSCST11012
+
+- id : 12
+  year : 2016
+  name : SURUJ JYOTI DAS
+  roll : PH16MSCST11013
+
+- id : 13
+  year : 2016
+  name : SUVASHIS MAITY
+  roll : PH16MSCST11014
+
+- id : 14
+  year : 2016
+  name : ZULFIKAR ALI
+  roll : PH16MSCST11015
+
+- id : 1
+  year : 2017
+  name : AKHILA KUMAR PRADHAN
+  roll : PH17MSCST11001
+
+- id : 2
+  year : 2017
+  name : ALEENA JOSEPH
+  roll : PH17MSCST11002
+
+- id : 3
+  year : 2017
+  name : ANUJ MAURYA
+  roll : PH17MSCST11003
+
+- id : 4
+  year : 2017
+  name : CHANDRIMA SEN
+  roll : PH17MSCST11004
+
+- id : 5
+  year : 2017
+  name : J SANJAY
+  roll : PH17MSCST11005
+
+- id : 6
+  year : 2017
+  name : KANHU KISHORE NANDA
+  roll : PH17MSCST11006
+
+- id : 7
+  year : 2017
+  name : LABONI MANNA
+  roll : PH17MSCST11007
+
+- id : 8
+  year : 2017
+  name : NISHANT SINGH
+  roll : PH17MSCST11008
+
+- id : 9
+  year : 2017
+  name : PAVAN KUMAR M G
+  roll : PH17MSCST11009
+
+- id : 10
+  year : 2017
+  name : R.VAISAKH
+  roll : PH17MSCST11010
+
+- id : 11
+  year : 2017
+  name : RISHEEK MARWAH
+  roll : PH17MSCST11011
+
+- id : 12
+  year : 2017
+  name : SATYANDER SINGH
+  roll : PH17MSCST11012
+
+- id : 13
+  year : 2017
+  name : SREEVENI M D
+  roll : PH17MSCST11013
+
+- id : 14
+  year : 2017
+  name : SUBHAM KOLEY
+  roll : PH17MSCST11014
+
+- id : 15
+  year : 2017
+  name : TONY NARZARY
+  roll : PH17MSCST11015
+
+- id : 16
+  year : 2017
+  name : URVASHI YADAV
+  roll : PH17MSCST11016
+
+- id : 17
+  year : 2017
+  name : VISMAYA K T
+  roll : PH17MSCST11017
+
+- id : 1
+  year : 2018
+  name : ABHISHEK BHATTACHARJEE
+  roll : PH18MSCST11001
+
+- id : 2
+  year : 2018
+  name : AKASH MOGA
+  roll : PH18MSCST11002
+
+- id : 3
+  year : 2018
+  name : ARGHA JYOTI ROY
+  roll : PH18MSCST11003
+
+- id : 4
+  year : 2018
+  name : ARUNANSHU  PANDA
+  roll : PH18MSCST11004
+
+- id : 5
+  year : 2018
+  name : BRIJMOHAN VERMA
+  roll : PH18MSCST11005
+
+- id : 6
+  year : 2018
+  name : CAMELIA JANA
+  roll : PH18MSCST11006
+
+- id : 7
+  year : 2018
+  name : E TAGORE NAIDU
+  roll : PH18MSCST11007
+
+- id : 8
+  year : 2018
+  name : FARUK AHMED
+  roll : PH18MSCST11008
+
+- id : 9
+  year : 2018
+  name : FATIMA BANOO
+  roll : PH18MSCST11009
+
+- id : 10
+  year : 2018
+  name : GAURAV SINGH
+  roll : PH18MSCST11010
+
+- id : 11
+  year : 2018
+  name : JOBIL THOMAS
+  roll : PH18MSCST11011
+
+- id : 12
+  year : 2018
+  name : MAINAK SINGHA
+  roll : PH18MSCST11012
+
+- id : 13
+  year : 2018
+  name : MUKHTAR SINGH
+  roll : PH18MSCST11013
+
+- id : 14
+  year : 2018
+  name : RAHUL JOSHI
+  roll : PH18MSCST11014
+
+- id : 15
+  year : 2018
+  name : ROHIT
+  roll : PH18MSCST11015
+
+- id : 16
+  year : 2018
+  name : SANKET KUMAR
+  roll : PH18MSCST11016
+
+- id : 17
+  year : 2018
+  name : SHEKHAR SINGH
+  roll : PH18MSCST11017
+
+- id : 18
+  year : 2018
+  name : VYSAKH PV
+  roll : PH18MSCST11018
+
+- id : 1
+  year : 2019
+  name : ASGHAR HUSAIN
+  roll : PH19MSCST11001
+
+- id : 2
+  year : 2019
+  name : ASHISH GEORGE
+  roll : PH19MSCST11002
+
+- id : 3
+  year : 2019
+  name : BANOTH KALYAN NAIK
+  roll : PH19MSCST11003
+
+- id : 4
+  year : 2019
+  name : DASHANSKHEM NONGKYNRIH
+  roll : PH19MSCST11004
+
+- id : 5
+  year : 2019
+  name : DENNIS JOSEPH
+  roll : PH19MSCST11005
+
+- id : 6
+  year : 2019
+  name : DEVENDRA MISHRA
+  roll : PH19MSCST11006
+
+- id : 7
+  year : 2019
+  name : KESHAV SINGH
+  roll : PH19MSCST11007
+
+- id : 8
+  year : 2019
+  name : MANISH KUMAR GOND
+  roll : PH19MSCST11008
+
+- id : 9
+  year : 2019
+  name : MUKESH KUMAR SAMAL
+  roll : PH19MSCST11009
+
+- id : 10
+  year : 2019
+  name : NARESH
+  roll : PH19MSCST11010
+
+- id : 11
+  year : 2019
+  name : NITISH KUMAR SINGH
+  roll : PH19MSCST11011
+
+- id : 12
+  year : 2019
+  name : PRADHUMN DIXIT
+  roll : PH19MSCST11012
+
+- id : 13
+  year : 2019
+  name : PRASHANT TIWARI
+  roll : PH19MSCST11013
+
+- id : 14
+  year : 2019
+  name : PRAVEEN S PATIL
+  roll : PH19MSCST11014
+
+- id : 15
+  year : 2019
+  name : PRITAM ROY
+  roll : PH19MSCST11015
+
+- id : 16
+  year : 2019
+  name : PRIYA GUPTA
+  roll : PH19MSCST11016
+
+- id : 17
+  year : 2019
+  name : RIKTEEM BHOWMICK
+  roll : PH19MSCST11017
+
+- id : 18
+  year : 2019
+  name : SAHIL SHARMA
+  roll : PH19MSCST11018
+
+- id : 1
+  year : 2020
+  name : VINAY KUMAR
+  roll : PH20MSCST11001
+
+- id : 2
+  year : 2020
+  name : RAHUL NARANG
+  roll : PH20MSCST11002
+
+- id : 3
+  year : 2020
+  name : MARYAM
+  roll : PH20MSCST11003
+
+- id : 4
+  year : 2020
+  name : SHWETANK GOSWAMI
+  roll : PH20MSCST11004
+
+- id : 5
+  year : 2020
+  name : PRASANTA DAS
+  roll : PH20MSCST11005
+
+- id : 6
+  year : 2020
+  name : PRIYANSH JASWAL
+  roll : PH20MSCST11006
+
+- id : 7
+  year : 2020
+  name : NIVEDITA L S
+  roll : PH20MSCST11007
+
+- id : 8
+  year : 2020
+  name : ABHAY SINGH RATHORE
+  roll : PH20MSCST11008
+
+- id : 9
+  year : 2020
+  name : SUPARNA DAS
+  roll : PH20MSCST11009
+
+- id : 10
+  year : 2020
+  name : DIPTIMAYEE JENA
+  roll : PH20MSCST11010
+
+- id : 11
+  year : 2020
+  name : MAHIMA CHAUDHARY
+  roll : PH20MSCST11012
+
+- id : 12
+  year : 2020
+  name : PULKIT MEHTA
+  roll : PH20MSCST11013
+
+- id : 13
+  year : 2020
+  name : KRISHNANJANA P J
+  roll : PH20MSCST11014
+
+- id : 14
+  year : 2020
+  name : GOVIND VIJAY J
+  roll : PH20MSCST11015
+
+- id : 15
+  year : 2020
+  name : THRANGBORWELL SOHLANG
+  roll : PH20MSCST11016
+
+- id : 16
+  year : 2020
+  name : SUMAN MONDAL
+  roll : PH20MSCST11017
+
+- id : 17
+  year : 2020
+  name : SWETAM SINHA
+  roll : PH20MSCST11018
+
+- id : 18
+  year : 2020
+  name : AJAY KUMAR YADAV
+  roll : PH20MSCST11019
+
+- id : 19
+  year : 2020
+  name : SAMIR MAHANTA
+  roll : PH20MSCST11020
+
+- id : 20
+  year : 2020
+  name : LALRINKIMA RALTE
+  roll : PH20MSCST11021
+
+- id : 21
+  year : 2020
+  name : VISHAL V DESAI
+  roll : PH20MSCST11022
+
+- id : 22
+  year : 2020
+  name : AJANA DHAVALKUMAR JAGDISHBHA
+  roll : PH20MSCST11023
+
+- id : 23
+  year : 2020
+  name : KARTICK BISWAS
+  roll : PH20MSCST11024
+
+- id : 24
+  year : 2020
+  name : DURGESH PANDEY
+  roll : PH20MSCST11025
+

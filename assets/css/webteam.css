@@ -1,0 +1,69 @@
+@import url('/assets/css/index.css');
+
+.container .mycard{
+  /* trying neumorphism========= */
+  /* border-radius: 50px;
+  background: #ffb52e;
+  box-shadow: 25px 25px 49px #d99a27,
+  -25px -25px 49px #ffd035; */
+
+  border-radius: 10px;
+  background: linear-gradient(to bottom, var(--apricot), var(--citrus));
+
+  position: relative;
+  width: 300px;
+  height: 250px;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.4s ease-in-out;
+}
+
+.container .mycard:hover{
+  height: 400px; /* increase this height if u want to add social media icons*/
+}
+
+.container .mycard .cimg{
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 260px; /* 260px & make image height 260px*/
+  width: 270px;
+  top: -60px;
+}
+
+.container .mycard .cimg img{
+  max-width: 100%;
+  border-radius: 10px;
+  /* border-radius: 50px; */
+  object-fit: cover;
+}
+
+.container .mycard .cdetails{
+  color: #fff;
+  margin-top: 1.2rem;
+  text-align: center;
+  position: relative;
+  margin-top: -160px; /* it was -160px */
+  padding: 10px 15px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.container .mycard .cdetails .social-icons a{
+  font-size: large;
+  padding: 10px 12px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.container .mycard:hover .cdetails{
+  visibility: visible;
+  opacity: 1;
+  margin-top: -50px;
+}
+

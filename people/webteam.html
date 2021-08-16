@@ -1,0 +1,29 @@
+---
+layout: base
+title: Website Team
+permalink: /webteam/
+css: webteam.css
+---
+
+<div class="container">
+  <center><h2 class="p-2 title-text">Developers</h2></center>
+</div>
+
+<div class="container d-flex justify-content-center align-items-center flex-wrap"
+  style="position: relative; padding:20px;">
+  {% for member in site.data.webteam %}
+  <div class="mycard">
+    <div class="cimg">
+      <img src="/assets/images/webteam/{{member.img}}" height="260px" width="240px" alt="">
+    </div>
+    <div class="cdetails">
+      <h2 class="h4 fw-bold"> {{member.name}} </h2>
+      <p class="h5"> {{member.rnum}} </p>
+      <div class="social-icons p-2">
+        <a target="_blank" href="{{member.github}}"><i class="fab fa-github" style="color: black;"></i></a>
+        <a target="_blank" href="{{member.linkedin}}"><i class="fab fa-linkedin-in" style="color: blue;"></i></a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

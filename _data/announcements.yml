@@ -1,35 +1,82 @@
 - id : 0
-  title : First Announcement
-  text : Incididunt magna quis irure cillum enim dolore ea magna quis irure cillum enim dolore ea.
-  date : 20th July 2021
-  link : /#
+  title : Inauguration of 14-inch Telescope on campus.
+  text : We are probably the only 2nd IIT(after IITK) to have such a powerful telescope to multiply the curiosity among students/faculties/staffs to peep into the sky and explore it.
+  date : 15th Aug 2021
+  link : 
 
 - id : 1
-  title : Second Announcement
-  text : Incididunt magna quis irure cillum enim dolore ea.
-  date : 20th July 2021
-  link : /#
+  title : Quantum Information in QFT and AdS/CFT-II
+  text : This workshop brings together leading global experts to discuss recent developments on quantum information and computation applied to field theory.
+  date : 18-20th Aug 2021
+  link : https://events.iitgn.ac.in/2021/qi/
 
 - id : 2
-  title : Third Announcement
-  text : Incididunt magna quis irure cillum enim dolore ea.
-  date : 20th July 2021
-  link : /#
+  title : Prime Minister's Research Fellowship
+  text : The Prime Minister's Research Fellows (PMRF) Scheme has been designed for improving the quality of research in various higher educational institutions in the country.
+  date : May 2021
+  link : https://may2021.pmrf.in/
 
 - id : 3
-  title : Fourth Announcement
-  text : Incididunt magna quis irure cillum enim dolore ea.
-  date : 20th July 2021
-  link : /#
+  title : International Workshop on Laboratory Astrophysics and Intense Laser.
+  text : International Workshop on Laboratory Astrophysics with Intense Laser, Particle Generation And Application.
+  date : 7-8th Dec 2020
+  link : https://www.indouklaserworkshop.com/
 
 - id : 4
-  title : Fifth Announcement
-  text : Incididunt magna quis irure cillum enim dolore ea.
-  date : 20th July 2021
-  link : /#
+  title : Applied Physics & Machine Learning webinar series
+  text : Series of webinars/seminars conducted on Applied Physics and Machine Learning.
+  date : 25th Aug - 15th Dec 2020
+  link : http://physics.iith.ac.in/APML/
 
 - id : 5
-  title : Sixth Announcement
-  text : Incididunt magna quis irure cillum enim dolore ea.
-  date : 20th July 2021
-  link : /#
+  title : Quantum Information in QFT and AdS/CFT
+  text : Workshop organised to discuss recent developments on quantum information and computation applied to field theory and holography...
+  date : 6-7th Aug 2020
+  link : https://events.iitgn.ac.in/2020/QI/
+
+- id : 6
+  title : Faculty Positions
+  text : Department of Physics at IIT Hyderabad actively seeking applications for faculty positions at all levels.
+  date : 2nd June 2020
+  link : http://physics.iith.ac.in/announcements_facultyposition.html
+
+- id : 7
+  title : International Workshop on Precision QCD @LHC
+  text : Precise predictions for scattering amplitudes and cross sections are extremely important for the progress of High Energy Physics.
+  date : 28-31st Jan 2020
+  link : http://physics.iith.ac.in/QCDWorkshop2020/
+
+- id : 8
+  title : International Workshop on frontiers in high energy physics.
+  text : FHEP 2019 aims to review and discuss recent progress in particle physics and cosmology bringing together researcher to report and discuss the latest scenario in the field.
+  date : 14-17th Oct 2019
+  link : http://physics.iith.ac.in/fhep2019/
+
+- id : 9
+  title : PhD Admission with own or external funding.
+  text : Rolling advertisement for Physics Ph.D program for candidates with CSIR/UGC/Inspire fellowships or Self-Sponsored Externally Funded Candidates
+  date : ---
+  link : http://physics.iith.ac.in/phd/Rolling_PhD.pdf
+
+- id : 10
+  title : Anomalies-2019
+  text : Open invitations to the Indo-US workshop on Anomalies-2019 conducted by IIT Hyderabad.
+  date : 18-20th July 2019
+  link : https://www.iith.ac.in/~anomalies19/
+
+- id : 11
+  title : Indo Japan Accelerator School
+  text : The aim of the school is to attract the physics and engineering researchers towards the multi-disciplinary field of accelerator physics and technology at the early stage of their career.
+  date : 20-22nd Feb 2019
+  link : http://physics.iith.ac.in/IJAS2019/
+
+- id : 12
+  title : Flavor Physics & CP Violation
+  text : 16th Conference on Flavor Physics & CP Violation jointly organised by IIT Hyderabad and University of Hyderabad.
+  date : 14-18th July 2018
+  link : http://physics.iith.ac.in/FPCP2018/
+
+
+
+
+

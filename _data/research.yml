@@ -1,29 +1,30 @@
 - id : 0
   img : slider/research/astrophysics.jpg
   title : Astrophysics
-  text : Officia adipisicing labore voluptate voluptate proident.
+  text : The astrophysics and Cosmology group is involved in research at all length scales from the Solar System to cosmological distances. The main focus
+    areas include solar corona and  wind, black holes, micro-quasars, active galactic nuclei, pulsars, gamma-ray bursts, space plasmas, dark matter and dark energy, galaxy clusters and groups, Cosmic Microwave Background.
   link : /research-areas/ac
 
 - id : 1
   img : slider/research/ccmp.jpg
   title : Computational Condensed Matter Physics
-  text : Ea adipisicing dolor laborum aliqua quis ipsum excepteur.
+  text : Our group works on exploring the new frontiers of condensed matter physics including topological phase of matter, magnetic properties, superconductivity and energy harvesting materials within the framework of Density Functional Theory (DFT). 
   link : /research-areas/ccmp
 
 - id : 2
   img : slider/research/ecmp.gif
   title : Experimental Condensed Matter Physics
-  text : Culpa eu eu sint ut nisi et nulla non eiusmod minim eu duis minim dolore.
+  text : 
   link : /research-areas/ecmp
 
 - id : 3
   img : slider/research/hienergy.jpg
   title : High Energy Physics
-  text : Culpa eu eu sint ut nisi et nulla non eiusmod minim eu duis minim dolore.
-  link : /#
+  text : At the High Energy Physics group we are concerned with some of the fundamental mysteries about origins of matter, energy and space-time. Key research areas include Quantum Field Theory, Particle Phenomenology, Astroparticle Physics, Physics Beyond Standard Model, String Theory/Quantum Gravity.
+  link : http://physics.iith.ac.in/HEP_Physics/index.html
 
 - id : 4
   img : slider/research/optics.jpg
   title : Optics, Spectroscopy and Laser-Plasma Physics
-  text : Culpa eu eu sint ut nisi et nulla non eiusmod minim eu duis minim dolore.
-  link : /#
+  text : The research involves interaction of light with atoms, molecules, clusters, nanosystems and plasmas. Theory and experiment live in harmony and generate harmonics in the lab for spectroscopic studies. 
+  link : /research-areas/optics
