@@ -7,21 +7,31 @@ script : gallery.js
 
 
 <body>
+  
     <div class="row">
         <div class="col-md-auto">
-            
-              <div class="sidebar">
-                <ul class = "sidebarul">
-                    
-                    <!-- <li class="sidebarli"  onclick="change(1)" id="gal-1">gallery1</li>
-                    <li class="sidebarli"  onclick="change(2)" id="gal-2">gallery2</li>
-                    <li class="sidebarli"  onclick="change(3)" id="gal-3">gallery3</li> -->
-                    {% for item in site.data.gallery %}
-                    <li class="sidebarli"  onclick="change('{{item.id}}')" id="gal-{{item.id}}">{{item.title}}</li>
-                    {% endfor %}
-                </ul>
-              </div>
-            
+          <nav class="sidebar card py-2 mb-6">
+            <ul class="nav flex-column" id="nav_accordion">
+              <li class="nav-item">
+                <h2 class="gallerymainheading" href="#">Gallery </h2>
+              </li>
+                  {% for eventcat in site.data.gallerymaincat %}
+                    <li class="nav-item has-submenu">
+                      <a class="nav-link galleydropdown" href="#"> {{eventcat.title}}  </a>
+                      <ul class="submenu collapse">
+                          {% for item in site.data.gallery %}
+                            {% for stitle in eventcat.subevent%}
+                                  {% if item.title == stitle%} 
+                                  <li onclick="change('{{item.id}}')" id="gal-{{item.id}}"><a class="nav-link galleydropdown" href="#">{{item.title}}</a></li>
+                                  {%endif%} 
+                            {% endfor %}
+                          {% endfor %}
+                      </ul>
+                    </li>
+                  {% endfor %}
+            </ul>
+          </nav>
+         
         </div>
         {% for item in site.data.gallery %}
         
