@@ -1,11 +1,11 @@
 <div class = "container-fluid mt-2 pt-2">
-    <div class = "row row-cols-sm-1 row-cols-md-2">
-        <div class="col-md-5">
+    <div class = "row row-cols-md-1 row-cols-lg-2">
+        <div class="col-lg-5">
             {% for item in site.data.research %}
               <img src = "/assets/images/{{ item.img }}" id = "news-img-{{item.id}}" class="news-img {% if item.id != 0 %} d-none {% endif %}" title="{{ item.title }}">
             {% endfor %}
         </div>
-        <div class = "col-md-7">
+        <div class = "col-lg-7">
             <center><p class="title-text">Research</p></center>
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 {% for item in site.data.research %}
