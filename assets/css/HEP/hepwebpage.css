@@ -1,0 +1,70 @@
+h1 {text-align: center; color: gray}
+h5 {text-align: center; color: gray}
+h2 {text-align: center; color: gray}
+h3 {text-align: left; color: mediumvioletred}
+body {
+	margin: 4em 4em 16em 4em;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 13px;
+}
+img {
+    border-radius: 25px;
+    border: 0px ;
+    padding: 0px;
+    width: 850px;
+    height: 160px;
+}
+
+div {
+ color: grey;
+ text-align: justify;
+ margin-left: 100px;
+ margin-right: 300px;
+}
+
+td {color: grey}
+li {color: grey} 
+
+
+#content {
+        border-radius: 5px;
+        width: 100%;
+        margin: 0px auto; /* Right and left margin set to "auto", to center the box horizontally */
+        text-align: left; /* Needed to counteract IE5/Win alignment problem  */
+        padding: 5px;
+        }
+#content {
+	border-radius: 5px;
+	width: 100%;
+	margin: 0px auto; /* Right and left margin set to "auto", to center the box horizontally */
+	text-align: left; /* Needed to counteract IE5/Win alignment problem  */
+	padding: 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+        }
+
+
+
+p.ex {
+	width: 900px;
+	text-align: justify;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}

@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>My first HTML page</title>
+</head>
+
+<body>
+    <b>Hello!</b>
+    I hope you are having as much fun reading this as I had writing it!
+<br>
+<img src="Skype-IMG.JPG" width="240" height="180" alt="HTML Dog">
+<img src="Skype-IMG.JPG" width="240" height="180" alt="HTML Dog">
+<img src="Skype-IMG.JPG" width="240" height="180" alt="HTML Dog">
+
+<form method='post'>
+  NAME: <input type='text' name='name' id='name' /><br />
+
+  Email: <input type='text' name='email' id='email' /><br />
+
+  Website: <input type='text' name='website' id='website' /><br />
+
+  Comment:<br />
+  <textarea name='comment' id='comment'></textarea><br />
+
+  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+  <input type='submit' value='Submit' />  
+</form>
+
+</body>
+</html> 

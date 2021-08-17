@@ -19,8 +19,8 @@ ul.spacer > li {
 }
 @media (max-width: 1000px) {
   .circle {
-    width: 16vh;
-    height: 16vh;
+    width: 18vh;
+    height: 18vh;
   }
 }
 .circle img {
