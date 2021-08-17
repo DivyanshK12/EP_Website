@@ -50,6 +50,14 @@ html {
     font-weight: 400;
     color: var(--darkgrey);
 }
+.link-orange
+{
+  color:var(--apricot);
+}
+.link-orange:hover, .link-orange:active
+{
+  color:var(--citrus);
+}
 .dropdown-menu > li > a:hover {
   background-image: none;
   background-color: var(--apricot);
