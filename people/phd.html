@@ -1,0 +1,37 @@
+---
+layout: base
+title: PhD
+permalink: /people/phd/
+css: faculty.css
+script: index.js
+---
+
+<div class="container-fluid" style="margin-top: 3%;">
+  <!-- <h1 class="text-center">Dedicated Staff Circle</h1> -->
+  <!--   <div class="container groupPhoto">
+    <img src="/assets/images/staff/staff.jpg" width="100%" alt="Group Photo">
+  </div> -->
+</div>
+<div class="container">
+  <hr>
+  <div class="row d-flex justify-content-between flex-wrap mx-2 p-2 mt-3">
+    {% for member in site.data.phd %}
+    <div class="col-md-3 mt-5">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="/assets/images/phd/{{member.Photo}}" alt="">
+            <p class="mt-3 h4 fw-bolder">{{member.Name}}</p>
+            <h5 class="mt-3 text-white fw-bolder">{{member.RollNumber}}</h5>
+          </div>
+          <div class="flip-card-back p-2">
+            <p><b>Year of joining: </b>{{member.YearofJoining}}</p>
+            <p><b>Guide: </b>{{member.NameofGuide}}</p>
+            <p><b>Phone: </b>{{member.Phone}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
