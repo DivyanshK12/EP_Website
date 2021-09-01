@@ -11,37 +11,37 @@ script: student.js
 
   <ul class="nav nav-pills nav-fill mb-3 d-flex justify-content-center align-items-center" id="pills-tab" role="tablist">
     <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
+      <button class="nav-link tab active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
         role="tab" aria-controls="pills-home" aria-selected="true">2021</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-2020-tab" data-bs-toggle="pill" data-bs-target="#pills-2020" type="button"
+      <button class="nav-link tab" id="pills-2020-tab" data-bs-toggle="pill" data-bs-target="#pills-2020" type="button"
         role="tab" aria-controls="pills-2020" aria-selected="false">2020</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-2019-tab" data-bs-toggle="pill" data-bs-target="#pills-2019" type="button"
+      <button class="nav-link tab" id="pills-2019-tab" data-bs-toggle="pill" data-bs-target="#pills-2019" type="button"
         role="tab" aria-controls="pills-2019" aria-selected="false">2019</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-2018-tab" data-bs-toggle="pill" data-bs-target="#pills-2018" type="button"
+      <button class="nav-link tab" id="pills-2018-tab" data-bs-toggle="pill" data-bs-target="#pills-2018" type="button"
         role="tab" aria-controls="pills-2018" aria-selected="false">2018</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-2017-tab" data-bs-toggle="pill" data-bs-target="#pills-2017" type="button"
+      <button class="nav-link tab" id="pills-2017-tab" data-bs-toggle="pill" data-bs-target="#pills-2017" type="button"
         role="tab" aria-controls="pills-2017" aria-selected="false">2017</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-2016-tab" data-bs-toggle="pill" data-bs-target="#pills-2016" type="button"
+      <button class="nav-link tab" id="pills-2016-tab" data-bs-toggle="pill" data-bs-target="#pills-2016" type="button"
         role="tab" aria-controls="pills-2016" aria-selected="false">2016</button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link" id="pills-2015-tab" data-bs-toggle="pill" data-bs-target="#pills-2015" type="button"
+      <button class="nav-link tab" id="pills-2015-tab" data-bs-toggle="pill" data-bs-target="#pills-2015" type="button"
         role="tab" aria-controls="pills-2015" aria-selected="false">2015</button>
     </li>
   </ul>
 
   <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+    <div class="tab-pane active fade show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
       <div class="row d-flex justify-content-between flex-wrap mx-2 p-2 mt-3">
         {% for member in site.data.phd %}
         {% if member.YearofJoining == 2021 %}
@@ -56,7 +56,6 @@ script: student.js
               <div class="flip-card-back p-2">
                 <p><b>Year of joining: </b>{{member.YearofJoining}}</p>
                 <p><b>Guide: </b>{{member.NameofGuide}}</p>
-                <p><b>Phone: </b>{{member.Phone}}</p>
               </div>
             </div>
           </div>
@@ -81,7 +80,6 @@ script: student.js
               <div class="flip-card-back p-2">
                 <p><b>Year of joining: </b>{{member.YearofJoining}}</p>
                 <p><b>Guide: </b>{{member.NameofGuide}}</p>
-                <p><b>Phone: </b>{{member.Phone}}</p>
               </div>
             </div>
           </div>
@@ -106,7 +104,6 @@ script: student.js
               <div class="flip-card-back p-2">
                 <p><b>Year of joining: </b>{{member.YearofJoining}}</p>
                 <p><b>Guide: </b>{{member.NameofGuide}}</p>
-                <p><b>Phone: </b>{{member.Phone}}</p>
               </div>
             </div>
           </div>
@@ -131,7 +128,6 @@ script: student.js
               <div class="flip-card-back p-2">
                 <p><b>Year of joining: </b>{{member.YearofJoining}}</p>
                 <p><b>Guide: </b>{{member.NameofGuide}}</p>
-                <p><b>Phone: </b>{{member.Phone}}</p>
               </div>
             </div>
           </div>
@@ -156,7 +152,6 @@ script: student.js
               <div class="flip-card-back p-2">
                 <p><b>Year of joining: </b>{{member.YearofJoining}}</p>
                 <p><b>Guide: </b>{{member.NameofGuide}}</p>
-                <p><b>Phone: </b>{{member.Phone}}</p>
               </div>
             </div>
           </div>
@@ -181,7 +176,6 @@ script: student.js
               <div class="flip-card-back p-2">
                 <p><b>Year of joining: </b>{{member.YearofJoining}}</p>
                 <p><b>Guide: </b>{{member.NameofGuide}}</p>
-                <p><b>Phone: </b>{{member.Phone}}</p>
               </div>
             </div>
           </div>
@@ -206,7 +200,6 @@ script: student.js
               <div class="flip-card-back p-2">
                 <p><b>Year of joining: </b>{{member.YearofJoining}}</p>
                 <p><b>Guide: </b>{{member.NameofGuide}}</p>
-                <p><b>Phone: </b>{{member.Phone}}</p>
               </div>
             </div>
           </div>

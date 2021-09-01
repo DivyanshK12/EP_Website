@@ -7,7 +7,18 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-
+.tab, .tab:hover
+{
+    color : var(--apricot);
+    background-color: white;
+    background-image: none;
+}
+.tab.active
+{
+    color : white !important;
+    background-color: var(--apricot) !important;
+    background-image: none !important;
+}
 .groupPhoto {
   display: flex;
   justify-content: center;
