@@ -1,19 +1,23 @@
 - img : slider/carousel/IMG_0720.JPG
   id : 0
-  title :  Faculty member Saurabh Sandilya prepares the quartz bars which helps in identifying the charged particles in the Belle-II experiment.
+  title :  Faculty member Saurabh Sandilya prepares the quartz bars which helps in identifying the charged particles in the Belle-II experiment. 
+  credits : Dr. Saurabh Sandilya
   #text : Nostrud adipisicing dolore ea dolore velit reprehenderit laborum amet exercitation laboris.
 
 - img : slider/carousel/IMG2.jpg
   id : 1
-  title : The second harmonic of ultrashort 800nm linearly polarised light
+  title : The second harmonic of ultrashort 800nm linearly polarised light.
+  credits : Dr. Vandana Sharma
   #text : Minim excepteur quis dolore commodo do deserunt tempor tempor exercitation sint quis sunt laboris.
 
 - img : slider/carousel/14.jpg
   id : 2
-  title :  Our Experimental High Energy Group is part of the Belle II experiment, which is on its way of recording an enormous (50 times more than Belle) electron-positron collision data sample.
+  title :  Our Experimental High Energy Group is part of the Belle II experiment, which is on its way of recording an enormous (50 times more than Belle) electron-positron collision data sample. 
+  credits : Dr. Saurabh Sandilya
   #text : Esse anim tempor exercitation sit sint eu minim id irure ut pariatur anim est.
 
 - img : slider/carousel/desimage.png
   id : 3
-  title : The galaxy cluster  SPT-CL J2138-6007, showing a signature  of strong gravitational lensing
+  title : The galaxy cluster  SPT-CL J2138-6007, showing a signature  of strong gravitational lensing.
+  credits : Dr. Shantanu Desai
   # text : Esse anim tempor exercitation sit sint eu minim id irure ut pariatur anim est.

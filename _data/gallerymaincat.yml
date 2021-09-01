@@ -1,8 +1,8 @@
-- title: Main event 1
-  subevent: ['Department Day & others events','Research lab']
+- title: Events 
+  subevent: ['Department Day & others events','Workshop,seminars & conferences']
 
-- title: Main event 2
-  subevent: ['Student & faculty foreign visit','Teaching labs']
+- title: Laboratories
+  subevent: ['Teaching labs', 'Research lab']
 
-- title: Main event 3
-  subevent: ['Workshop,seminars & conferences']
+- title: Students and Faculty Foreign Visit
+  subevent: ['Student & faculty foreign visit']
