@@ -120,6 +120,10 @@ html {
     .col ul li a {
       width: 200%;
     }
+    
+    .col-md-7 .row .col h6{
+      width: 500px;
+    }
 
     .col img, small {
       width: 200%;
