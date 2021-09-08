@@ -1,7 +1,7 @@
 <div class="orange p-2">
 <div class="container mt-5 mb-5">
     <div class="row row-cols-md-3 row-cols-sm-1 justify-content-md-center">
-      <div class="col-md-4 col-sm-12">
+      <div class="col-md-4 col-sm-12 mb-2">
         <div class="card shadow event">
           <div class="card-body">
             <center><h4 class="card-title title-text p-2" id="head">Announcements</h4></center>
@@ -25,7 +25,7 @@
           </div>
         </div>
       </div><!--col-->
-      <div class="col-md-4 col-sm-12">
+      <div class="col-md-4 col-sm-12 mb-2">
         <div class="card shadow event">
           <div class="card-body">
             <center><h4 class="card-title title-text p-2" id="head">News</h4></center>
@@ -49,11 +49,11 @@
           </div>
         </div>
       </div><!--col-->
-      <div class="col-md-4 col-sm-12" >
+            <div class="col-md-4 col-sm-12 mb-2" >
         <div class="card shadow event">
           <div class="card-body">
-            <center><h4 class="card-title title-text p-2" id="head">Events</h4></center>
-            {% for item in site.data.events %}
+            <center><h4 class="card-title title-text p-2" id="head">Workshops and Seminars</h4></center>
+            {% for item in site.data.seminars %}
             {% if item.id < 3 %}
              <!--Can add link to item itself-->
             <div class="card mb-3 flexcard" id="link">
@@ -73,10 +73,58 @@
           </div>
         </div>
       </div><!--col-->
-      <div class="col-md-4 col-sm-12" id = "achievements">
+            <div class="col-md-4 col-sm-12 mb-2" >
         <div class="card shadow event">
           <div class="card-body">
-            <center><h4 class="card-title title-text p-2" id="head">Achievements</h4></center>
+            <center><h4 class="card-title title-text p-2" id="head">Conferences</h4></center>
+            {% for item in site.data.con %}
+            {% if item.id < 3 %}
+             <!--Can add link to item itself-->
+            <div class="card mb-3 flexcard" id="link">
+              <div class="card-body text-dark ">
+                <a href="{{item.link}}" class="flexcard-link"><h5 class="card-title fw-bold">{{ item.title }}</h5></a>
+                <p class="card-text text-truncate">{{ item.text }}</p>
+              </div>
+              <div class="card-footer text-muted">
+                {{ item.date }}
+              </div>
+            </div>
+          {% endif %}
+          {% endfor %}
+          <div class="card-footer">
+            <a href="/events" class="card-link">All Events</a>
+          </div>
+          </div>
+        </div>
+      </div><!--col-->
+      <div class="col-md-4 col-sm-12 mb-2" >
+        <div class="card shadow event">
+          <div class="card-body">
+            <center><h4 class="card-title title-text p-2" id="head">Courses</h4></center>
+            {% for item in site.data.courses %}
+            {% if item.id < 3 %}
+             <!--Can add link to item itself-->
+            <div class="card mb-3 flexcard" id="link">
+              <div class="card-body text-dark ">
+                <a href="{{item.link}}" class="flexcard-link"><h5 class="card-title fw-bold">{{ item.title }}</h5></a>
+                <p class="card-text text-truncate">{{ item.text }}</p>
+              </div>
+              <div class="card-footer text-muted">
+                {{ item.date }}
+              </div>
+            </div>
+          {% endif %}
+          {% endfor %}
+          <div class="card-footer">
+            <a href="/events" class="card-link">All Events</a>
+          </div>
+          </div>
+        </div>
+      </div><!--col-->
+      <div class="col-md-4 col-sm-12 mb-2" id = "achievements">
+        <div class="card shadow event">
+          <div class="card-body">
+            <center><h4 class="card-title title-text p-2" id="head">Awards & Recognition</h4></center>
             {% for item in site.data.achievements %}
             {% if item.id < 3 %}
              <!--Can add link to item itself-->

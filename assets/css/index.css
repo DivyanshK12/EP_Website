@@ -13,7 +13,7 @@
 .card-link
 {
   text-decoration: none;
-  color:var(--apricot);
+  color:var(--citrus);
   font-size: larger;
 }
 .card-link:hover
@@ -61,18 +61,18 @@
     max-height:300px;
   }
 
-.flexcard-data{
+/* .flexcard-data{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+} */
 
 .flexcard-link {
   position: relative;
   display: inline-block;
   font-size: 2em;
   font-weight: 800;
-  color: var(--apricot);
+  color: var(--citrus);
   overflow: hidden;
-  background: linear-gradient(to right,var(--apricot), var(--apricot) 50%, var(--citrus) 50%);
+  background: linear-gradient(to right,var(--citrus), var(--citrus) 50%, var(--apricot) 50%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
