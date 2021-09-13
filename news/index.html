@@ -5,6 +5,14 @@ css: info.css
 script: info.js
 ---
 <div class="container">
+  <div class="row pt-5">
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/" class="link-orange">Home</a></li>
+    <li class="breadcrumb-item" aria-current="page" class="text-muted">News</li>
+  </ol>
+</nav>
+</div>
     <center><h1 class="title-text mt-3 mb-3">News</h1></center>
     <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 mt-3 mb-3" id="head">
         {% for item in site.data.news %}

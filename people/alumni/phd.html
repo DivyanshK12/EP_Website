@@ -1,79 +1,36 @@
 ---
 layout: base
-title: Students | Ph.D
+title: Alumni | Ph.D
 css: faculty.css
 script: alumni.js
 ---
 
 <div class="container">
-  <div class="row pt-5">
+<div class="row pt-5">
   <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/people/alumni/" class="link-orange">Students</a></li>
-    <li class="breadcrumb-item" aria-current="page" class="text-muted">M.Sc</li>
+    <li class="breadcrumb-item"><a href="/people/alumni/" class="link-orange">Alumni</a></li>
+    <li class="breadcrumb-item" aria-current="page" class="text-muted">Ph.D</li>
   </ol>
 </nav>
 </div>
-  <center><h2 class="title-text text-center m-2">PhD Students</h2></center>
-
-  <ul class="nav nav-pills nav-fill mb-3 d-flex justify-content-center align-items-center" id="pills-tab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <button class="nav-link tab active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
-        role="tab" aria-controls="pills-home" aria-selected="true">2021</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link tab" id="pills-2020-tab" data-bs-toggle="pill" data-bs-target="#pills-2020" type="button"
-        role="tab" aria-controls="pills-2020" aria-selected="false">2020</button>
-    </li>
-  </ul>
-
-  <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane active fade show" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-      <div class="row d-flex justify-content-between flex-wrap mx-2 p-2 mt-3">
-        {% for member in site.data.phd %}
-        {% if member.YearofJoining == 2021 %}
-        <div class="col-md-3 mt-5">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="/assets/images/phd/{{member.Photo}}" alt="">
-                <p class="mt-3 h4 fw-bolder">{{member.Name}}</p>
-                <h5 class="mt-3 text-white fw-bolder">{{member.RollNumber}}</h5>
-              </div>
-              <div class="flip-card-back p-2">
-                <p><b>Year of joining: </b>{{member.YearofJoining}}</p>
-                <p><b>Guide: </b>{{member.NameofGuide}}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-
-    <div class="tab-pane fade" id="pills-2020" role="tabpanel" aria-labelledby="pills-profile-tab">
-      <div class="row d-flex justify-content-between flex-wrap mx-2 p-2 mt-3">
-        {% for member in site.data.phd %}
-        {% if member.YearofJoining == 2020 %}
-        <div class="col-md-3 mt-5">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="/assets/images/phd/{{member.Photo}}" alt="">
-                <p class="mt-3 h4 fw-bolder">{{member.Name}}</p>
-                <h5 class="mt-3 text-white fw-bolder">{{member.RollNumber}}</h5>
-              </div>
-              <div class="flip-card-back p-2">
-                <p><b>Year of joining: </b>{{member.YearofJoining}}</p>
-                <p><b>Guide: </b>{{member.NameofGuide}}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-
-  </div>
+  <center><h2 class="title-text p-3">Ph.D Students</h2></center>
+  <table class="table table-striped" id="2020">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Roll Number</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in site.data.alum_phd %}
+      <tr>
+        <th sope ="row">{{item.Name}}</td>
+        <td>{{item.RollNo}}</td>
+        <td>{{item.Status}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

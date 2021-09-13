@@ -1,60 +1,34 @@
 ---
 layout: base
 title: Alumni | M.Sc
-css: people.css
+css: alumni.css
 script: alumni.js
 ---
 <div class="container">
-  <div class="row pt-5">
+<div class="row pt-5">
   <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="/people/alumni/" class="link-orange">Students</a></li>
+    <li class="breadcrumb-item"><a href="/people/alumni/" class="link-orange">Alumni</a></li>
     <li class="breadcrumb-item" aria-current="page" class="text-muted">M.Sc</li>
   </ol>
 </nav>
 </div>
   <center><h2 class="title-text p-3">M.Sc Students</h2></center>
-  <nav class="nav nav-pills nav-fill">
-    <a class="nav-item nav-link tab active" href="#" onclick="change(2020)" id="nav-2020">2020</a>
-    <a class="nav-item nav-link tab" href="#" onclick="change(2019)" id="nav-2019">2019</a>
-  </nav>
   <table class="table table-striped" id="2020">
     <thead>
       <tr>
-        <th scope="col">Sr. No.</th>
         <th scope="col">Name</th>
         <th scope="col">Roll Number</th>
+        <th scope="col">Status</th>
       </tr>
     </thead>
     <tbody>
-      {% for item in site.data.msc %}
-      {% if item.year == 2020 %}
+      {% for item in site.data.alum_msc %}
       <tr>
-        <th scope="row">{{item.id}}</th>
-        <td>{{item.name}}</td>
-        <td>{{item.roll}}</td>
+        <th sope ="row">{{item.Name}}</td>
+        <td>{{item.RollNo}}</td>
+        <td>{{item.Status}}</td>
       </tr>
-      {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-  <table class="table table-striped d-none" id="2019">
-    <thead>
-      <tr>
-        <th scope="col">Sr. No.</th>
-        <th scope="col">Name</th>
-        <th scope="col">Roll Number</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for item in site.data.msc %}
-      {% if item.year == 2019 %}
-      <tr>
-        <th scope="row">{{item.id}}</th>
-        <td>{{item.name}}</td>
-        <td>{{item.roll}}</td>
-      </tr>
-      {% endif %}
       {% endfor %}
     </tbody>
   </table>
