@@ -33,7 +33,6 @@ function viewMore()
     row.classList.add("d-none");
     toggle.innerText = "Read More..."
   }
-  console.log("Toggled");
   return false;
 }
 gsap.registerPlugin(ScrollTrigger);

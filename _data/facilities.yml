@@ -1,0 +1,55 @@
+- id : 0
+  Equipment : MULTIMODAL SCANNING PROBE MICROSCOPE
+  FIC : Jyoti Ranjan Mohanty
+  Features : AFM, MFM, PFM, conducting AFM, variable field and temperature  imaging
+  Location : C-101
+  Category : Microscopy
+
+- id : 1
+  Equipment : ULTRA-HIGH SENSITIVE MOKE MAGNETOMETER
+  FIC : Jyoti Ranjan Mohanty
+  Features : High sensitive MH loop and domain imaging
+  Location : C-103/B
+  Category : Magnetic Characterisation
+
+- id : 2
+  Equipment : 14-INCH TELESCOPE
+  FIC : Mayukh Pahari
+  Features : large area; capable of observing faint objects
+  Location : C-707
+  Category : Telescope
+
+- id : 3
+  Equipment : PHOTOLUMINESCENCE SPECTROMETER
+  FIC : Sai Santosh Kumar Raavi
+  Features : Steady state PL
+  Location : A-716
+  Category : Spectroscopy
+
+- id : 4
+  Equipment : XRD
+  FIC : Saket Asthana
+  Features : Powder XRD, Structural phase analysis
+  Location : C-108
+  Category : Crystallography
+
+- id : 5
+  Equipment : SQUID 
+  FIC : Saket Asthana
+  Features : Low temperature Magnetization, AC susceptibility
+  Location : C-101
+  Category : Magnetic Characterisation
+
+- id : 6
+  Equipment : VIBRATING SAMPLE MAGNETOMETER
+  FIC : Suryanarana J
+  Features : M vs H, M vs T, Angle dependent measurements
+  Location : C - 101
+  Category : Magnetic Characterisation
+
+- id : 7
+  Equipment : SEM BENCH TOP
+  FIC : Saket Asthana
+  Features : Microstructural investigation but not at nanoscale
+  Location : Shed Lab-26
+  Category : Microscopy

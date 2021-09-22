@@ -1,15 +1,35 @@
 ---
 layout: base
-title: Students
+title: Facilities
 css: people.css
 script: student.js
 ---
-<!-- version 2.0 -->
 <div class = "container">
+    <center><h1 class="title-text mt-3">Research Equipment Facilities</h1></center>
     <div class = "row justify-content-center mt-4">
-        <center><h1 class="title-text">Coming Soon</h1></center>
-        <div class = "col-6">
-            <img src= "/assets/images/base/call.svg" style="object-fit: fit; max-height: 50vh;">
-        </div>
+        <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Sr. No.</th>
+        <th scope="col">Name of the equipment</th>
+        <th scope="col">Name of FIC</th>
+        <th scope ="col">Key Features / Capabilities</th>
+        <th scope ="col">Location</th>
+        <th scope ="col">Equipment Category</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in site.data.facilities %}
+      <tr>
+        <th scope="row">{{item.id}}</th>
+        <td>{{item.Equipment}}</td>
+        <td>{{item.FIC}}</td>
+        <td>{{item.Features}}</td>
+        <td>{{item.Location}}</td>
+        <td>{{item.Category}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
     </div>
 </div>
