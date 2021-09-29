@@ -52,7 +52,7 @@
             <div class="col-md-4 col-sm-12 mb-2" >
         <div class="card shadow event">
           <div class="card-body">
-            <center><h4 class="card-title title-text p-2" id="head">Workshops and Seminars</h4></center>
+            <center><h4 class="card-title title-text p-2" id="head">Colloquia & Seminars</h4></center>
             {% for item in site.data.seminars %}
             {% if item.id < 3 %}
              <!--Can add link to item itself-->
@@ -68,7 +68,7 @@
           {% endif %}
           {% endfor %}
           <div class="card-footer">
-            <a href="/events" target="_blank" rel ="noreferrer noopener" class="card-link">All Events</a>
+            <a href="/seminars" target="_blank" rel ="noreferrer noopener" class="card-link">All Seminars</a>
           </div>
           </div>
         </div>
@@ -76,8 +76,8 @@
             <div class="col-md-4 col-sm-12 mb-2" >
         <div class="card shadow event">
           <div class="card-body">
-            <center><h4 class="card-title title-text p-2" id="head">Conferences</h4></center>
-            {% for item in site.data.con %}
+            <center><h4 class="card-title title-text p-2" id="head">Workshops and Conferences</h4></center>
+            {% for item in site.data.conferences %}
             {% if item.id < 3 %}
              <!--Can add link to item itself-->
             <div class="card mb-3 flexcard" id="link">
@@ -92,7 +92,7 @@
           {% endif %}
           {% endfor %}
           <div class="card-footer">
-            <a href="/events" target="_blank" rel ="noreferrer noopener" class="card-link">All Events</a>
+            <a href="/workshops" target="_blank" rel ="noreferrer noopener" class="card-link">All Workshops</a>
           </div>
           </div>
         </div>
@@ -100,7 +100,7 @@
       <div class="col-md-4 col-sm-12 mb-2" >
         <div class="card shadow event">
           <div class="card-body">
-            <center><h4 class="card-title title-text p-2" id="head">NPTEL Courses</h4></center>
+            <center><h4 class="card-title title-text p-2" id="head">Swayam(NPTEL) Courses</h4></center>
             {% for item in site.data.courses %}
             {% if item.id < 3 %}
              <!--Can add link to item itself-->
@@ -116,7 +116,7 @@
           {% endif %}
           {% endfor %}
           <div class="card-footer">
-            <a href="/events" target="_blank" rel ="noreferrer noopener" class="card-link">All Events</a>
+            <a href="/courses" target="_blank" rel ="noreferrer noopener" class="card-link">All Courses</a>
           </div>
           </div>
         </div>
