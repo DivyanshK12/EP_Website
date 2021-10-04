@@ -10,19 +10,19 @@
   credits : Dr. Vandana Sharma
   #text : Minim excepteur quis dolore commodo do deserunt tempor tempor exercitation sint quis sunt laboris.
 
-- img : slider/carousel/14.jpg
-  id : 2
-  title :  Our Experimental High Energy Group is part of the Belle II experiment, which is on its way of recording an enormous (50 times more than Belle) electron-positron collision data sample. 
-  credits : Dr. Saurabh Sandilya
+# - img : slider/carousel/14.jpg
+#   id : 2
+#   title :  Our Experimental High Energy Group is part of the Belle II experiment, which is on its way of recording an enormous (50 times more than Belle) electron-positron collision data sample. 
+#   credits : Dr. Saurabh Sandilya
   #text : Esse anim tempor exercitation sit sint eu minim id irure ut pariatur anim est.
 
 - img : slider/carousel/desimage.png
-  id : 3
+  id : 2
   title : The galaxy cluster  SPT-CL J2138-6007, showing a signature  of strong gravitational lensing.
-  credits : Dr. Shantanu Desai
+  credits : Dark Energy Survey Collaboration
   # text : Esse anim tempor exercitation sit sint eu minim id irure ut pariatur anim est.
 
 - img : slider/carousel/PhysicsDept_1.jpg
-  id : 4
+  id : 3
   title : The Physics Department Open Day, 2018
   credits : The Physics Department, IITH
