@@ -3,19 +3,19 @@
   title : Astrophysics
   text : The astrophysics and Cosmology group is involved in research at all length scales from the Solar System to cosmological distances. The main focus
     areas include solar corona and  wind, black holes, micro-quasars, active galactic nuclei, pulsars, gamma-ray bursts, space plasmas, dark matter and dark energy, galaxy clusters and groups, Cosmic Microwave Background.
-  link : /research-areas/ac
+  link : /research-areas/ac.html
 
 - id : 1
   img : slider/research/ccmp.jpg
   title : Computational Condensed Matter Physics
   text : Our group works on exploring the new frontiers of condensed matter physics including topological phase of matter, magnetic properties, superconductivity and energy harvesting materials within the framework of Density Functional Theory (DFT). 
-  link : /research-areas/ccmp
+  link : /research-areas/ccmp.html
 
 - id : 2
   img : slider/research/ecmp.gif
   title : Experimental Condensed Matter Physics
   text : 
-  link : /research-areas/ecmp
+  link : /research-areas/ecmp.html
 
 - id : 3
   img : slider/research/hienergy.jpg
@@ -27,4 +27,4 @@
   img : slider/research/optics.jpg
   title : Optics, Spectroscopy and Laser-Plasma Physics
   text : The research involves interaction of light with atoms, molecules, clusters, nanosystems and plasmas. Theory and experiment live in harmony and generate harmonics in the lab for spectroscopic studies. 
-  link : /research-areas/optics
+  link : /research-areas/optics.html
