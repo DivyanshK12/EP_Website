@@ -1,5 +1,6 @@
 import csv
 import sys
+from typing import List
 
 def csv_to_yml(csv_filename : str = "in.csv", yml_filename : str = "out.yml") -> None:
     with open(csv_filename, newline='') as csvfile :
@@ -16,14 +17,34 @@ def csv_to_yml(csv_filename : str = "in.csv", yml_filename : str = "out.yml") ->
     print(f"Completed writing to {yml_filename}")
 
 def yml_to_csv(yml_filename : str = "in.yml", csv_filename : str = "out.csv") -> None :
-    pass
+    ymlfile = open(yml_filename, 'r')
+    content = ymlfile.read()
+    data = content.split("\n\n") # Have the individual sections here now
+    with open(csv_filename, 'w', newline='') as csvfile:
+        # create the csv writer
+        writer = csv.writer(csvfile)
+        # write a row to the csv file
+        header = get_val(data[0])
+        writer.writerow(header)
+        for entry in data:
+            writer.writerow(get_val(entry, False))
+
+def get_val(entry : str, key : bool = True) -> List[str]:
+    titles = []
+    enteries = entry.split("\n")
+    for e in enteries : 
+        titles.append(e.split(":", 1)[0 if key else 1].strip())
+    if key: # if we are getting the key
+        titles[0] = titles[0].replace("- ", "")
+    return titles
 
 def main() -> None:
     input_count = len(sys.argv)
     if input_count >= 3 :
         input_file = sys.argv[1]
         output_file = sys.argv[2]
-        csv_to_yml(input_file, output_file)
+        #csv_to_yml(input_file, output_file)
+        yml_to_csv(input_file, output_file)
     else:
         print("Please follow the format : python util.py inputfilename.csv outputfilename.yml")
 
