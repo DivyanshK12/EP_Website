@@ -43,10 +43,15 @@ def main() -> None:
     if input_count >= 3 :
         input_file = sys.argv[1]
         output_file = sys.argv[2]
-        #csv_to_yml(input_file, output_file)
-        yml_to_csv(input_file, output_file)
+        mode = sys.argv[3]
+        if mode == 1 :
+            csv_to_yml(input_file, output_file)
+        elif mode == 2 :
+            yml_to_csv(input_file, output_file)
+        else :
+            print("Invalid mode. Enter 1 to convert csv to yml, 2 to convert yml to csv")
     else:
-        print("Please follow the format : python util.py inputfilename.csv outputfilename.yml")
+        print("Please follow the format : python util.py inputfilename outputfilename mode")
 
 if __name__ == "__main__":
     main()
@@ -55,3 +60,4 @@ if __name__ == "__main__":
 # Line 11 : outfile.write("- id : {}\n".format(index))
 # Line 13 : outfile.write(f"  {} : {}\n".format(key, value))
 # Line 16 : print(f"Completed writing to {}".format(yml_filename))
+# The type definiton after : need to be removed too in that scenario
